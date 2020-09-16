@@ -20,13 +20,13 @@ class CoreAnimateTableViewController: UITableViewController {
                            "阴影", "ShadowPath",
                            "图层蒙板", "拉伸过滤",
                            "组透明", "仿射变换",
-                           "3D变换"]
+                           "3D变换", "固体对象"]
         classNames = ["TimerViewController", "HitTestViewController",
                       "CornerRadiusViewController", "LayerFrameViewController",
                       "ShadowViewController", "ShadowPathViewController",
                       "LayermaskViewController", "TensilefilterViewController",
                       "GroupOfTransparentViewController", "TransformViewController",
-                      "Transform3DViewController"]
+                      "Transform3DViewController", "SolidObjectViewController"]
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

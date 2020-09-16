@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		17A259CD2511C0AA007F0773 /* Transform3DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A259CC2511C0AA007F0773 /* Transform3DViewController.swift */; };
+		17A259D12511E214007F0773 /* SolidObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A259D02511E214007F0773 /* SolidObjectViewController.swift */; };
 		17BAFE12251063C6001A4C85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BAFE11251063C6001A4C85 /* AppDelegate.swift */; };
 		17BAFE14251063C6001A4C85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BAFE13251063C6001A4C85 /* SceneDelegate.swift */; };
 		17BAFE19251063C6001A4C85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BAFE17251063C6001A4C85 /* Main.storyboard */; };
@@ -32,8 +33,7 @@
 
 /* Begin PBXFileReference section */
 		17A259CC2511C0AA007F0773 /* Transform3DViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transform3DViewController.swift; sourceTree = "<group>"; };
-		17A259CE2511C0E6007F0773 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
-		17A259CF2511C0E6007F0773 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		17A259D02511E214007F0773 /* SolidObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidObjectViewController.swift; sourceTree = "<group>"; };
 		17BAFE0E251063C6001A4C85 /* CoreAnimate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17BAFE11251063C6001A4C85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17BAFE13251063C6001A4C85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -142,6 +142,7 @@
 			children = (
 				17DF6A082511BAAD00362FD8 /* TransformViewController.swift */,
 				17A259CC2511C0AA007F0773 /* Transform3DViewController.swift */,
+				17A259D02511E214007F0773 /* SolidObjectViewController.swift */,
 			);
 			path = "变换";
 			sourceTree = "<group>";
@@ -188,7 +189,6 @@
 			knownRegions = (
 				en,
 				Base,
-				"zh-Hans",
 			);
 			mainGroup = 17BAFE05251063C6001A4C85;
 			productRefGroup = 17BAFE0F251063C6001A4C85 /* Products */;
@@ -231,6 +231,7 @@
 				17A259CD2511C0AA007F0773 /* Transform3DViewController.swift in Sources */,
 				17BAFE402510B90F001A4C85 /* LayermaskViewController.swift in Sources */,
 				17BAFE3425109F7A001A4C85 /* NSObject+Extension.swift in Sources */,
+				17A259D12511E214007F0773 /* SolidObjectViewController.swift in Sources */,
 				17BAFE2825107283001A4C85 /* CoreAnimateTableViewController.swift in Sources */,
 				17DF6A092511BAAD00362FD8 /* TransformViewController.swift in Sources */,
 				17BAFE3225109D19001A4C85 /* CornerRadiusViewController.swift in Sources */,
@@ -246,7 +247,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				17BAFE18251063C6001A4C85 /* Base */,
-				17A259CE2511C0E6007F0773 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -255,7 +255,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				17BAFE1D251063C7001A4C85 /* Base */,
-				17A259CF2511C0E6007F0773 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

@@ -7,6 +7,9 @@
 //
 
 import Foundation
+import GLKit
+import QuartzCore
+import UIKit
 /// 打印信息的宏
 ///
 /// - Parameters:
@@ -20,6 +23,13 @@ func printf<N>(_ message: N, fileName: String = #file, methodName: String = #fun
     #else
 
     #endif
+}
+
+/// 随机颜色
+///
+/// - Returns: UIColor
+func arcrandomColor() -> UIColor {
+    return UIColor(red: CGFloat(arc4random() % 255) / 255, green: CGFloat(arc4random() % 255) / 255, blue: CGFloat(arc4random() % 255) / 255, alpha: 1.0)
 }
 
 func timeStampToString(_ date: Date) -> String {
