@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		17A259CD2511C0AA007F0773 /* Transform3DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A259CC2511C0AA007F0773 /* Transform3DViewController.swift */; };
 		17A259D12511E214007F0773 /* SolidObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A259D02511E214007F0773 /* SolidObjectViewController.swift */; };
+		17A259D32511FB36007F0773 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A259D22511FB36007F0773 /* BaseTableViewController.swift */; };
+		17A259D52511FBC6007F0773 /* TransFormTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A259D42511FBC6007F0773 /* TransFormTableViewController.swift */; };
 		17BAFE12251063C6001A4C85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BAFE11251063C6001A4C85 /* AppDelegate.swift */; };
 		17BAFE14251063C6001A4C85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BAFE13251063C6001A4C85 /* SceneDelegate.swift */; };
 		17BAFE19251063C6001A4C85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BAFE17251063C6001A4C85 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* Begin PBXFileReference section */
 		17A259CC2511C0AA007F0773 /* Transform3DViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transform3DViewController.swift; sourceTree = "<group>"; };
 		17A259D02511E214007F0773 /* SolidObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidObjectViewController.swift; sourceTree = "<group>"; };
+		17A259D22511FB36007F0773 /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		17A259D42511FBC6007F0773 /* TransFormTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransFormTableViewController.swift; sourceTree = "<group>"; };
 		17BAFE0E251063C6001A4C85 /* CoreAnimate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17BAFE11251063C6001A4C85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17BAFE13251063C6001A4C85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				17BAFE10251063C6001A4C85 /* CoreAnimate */,
-				17BAFE0F251063C6001A4C85 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,16 +86,18 @@
 				17BAFE0E251063C6001A4C85 /* CoreAnimate.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		17BAFE10251063C6001A4C85 /* CoreAnimate */ = {
 			isa = PBXGroup;
 			children = (
-				17BAFE2725107283001A4C85 /* CoreAnimateTableViewController.swift */,
+				17A259D22511FB36007F0773 /* BaseTableViewController.swift */,
 				17DF6A062511B9CF00362FD8 /* Other */,
 				17DF6A052511B9C000362FD8 /* Base */,
 				17DF6A042511B96E00362FD8 /* 视觉效果 */,
 				17DF6A072511BA7B00362FD8 /* 变换 */,
+				17BAFE0F251063C6001A4C85 /* Products */,
 			);
 			path = CoreAnimate;
 			sourceTree = "<group>";
@@ -100,6 +105,7 @@
 		17DF6A042511B96E00362FD8 /* 视觉效果 */ = {
 			isa = PBXGroup;
 			children = (
+				17BAFE2725107283001A4C85 /* CoreAnimateTableViewController.swift */,
 				17BAFE29251092E9001A4C85 /* TimerViewController.swift */,
 				17BAFE2F25109B31001A4C85 /* HitTestViewController.swift */,
 				17BAFE3125109D19001A4C85 /* CornerRadiusViewController.swift */,
@@ -140,6 +146,7 @@
 		17DF6A072511BA7B00362FD8 /* 变换 */ = {
 			isa = PBXGroup;
 			children = (
+				17A259D42511FBC6007F0773 /* TransFormTableViewController.swift */,
 				17DF6A082511BAAD00362FD8 /* TransformViewController.swift */,
 				17A259CC2511C0AA007F0773 /* Transform3DViewController.swift */,
 				17A259D02511E214007F0773 /* SolidObjectViewController.swift */,
@@ -220,9 +227,11 @@
 			files = (
 				17BAFE2C251095A8001A4C85 /* BaseViewController.swift in Sources */,
 				17BAFE3E2510B746001A4C85 /* ShadowPathViewController.swift in Sources */,
+				17A259D32511FB36007F0773 /* BaseTableViewController.swift in Sources */,
 				17BAFE2A251092E9001A4C85 /* TimerViewController.swift in Sources */,
 				17BAFE12251063C6001A4C85 /* AppDelegate.swift in Sources */,
 				17BAFE442510CD2B001A4C85 /* GroupOfTransparentViewController.swift in Sources */,
+				17A259D52511FBC6007F0773 /* TransFormTableViewController.swift in Sources */,
 				17BAFE3625109FB1001A4C85 /* Func.swift in Sources */,
 				17BAFE382510A158001A4C85 /* Proxy.swift in Sources */,
 				17BAFE422510BE18001A4C85 /* TensilefilterViewController.swift in Sources */,

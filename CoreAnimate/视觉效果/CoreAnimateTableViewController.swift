@@ -8,25 +8,17 @@
 
 import UIKit
 
-class CoreAnimateTableViewController: UITableViewController {
-    var textLabelString: [String]!
-    var classNames: [String]!
-
+class CoreAnimateTableViewController: BaseTableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "reuseIdentifier")
         textLabelString = ["锚点", "HitTest",
                            "圆角", "图层边框",
                            "阴影", "ShadowPath",
-                           "图层蒙板", "拉伸过滤",
-                           "组透明", "仿射变换",
-                           "3D变换", "固体对象"]
+                           "图层蒙板", "拉伸过滤"]
         classNames = ["TimerViewController", "HitTestViewController",
                       "CornerRadiusViewController", "LayerFrameViewController",
                       "ShadowViewController", "ShadowPathViewController",
-                      "LayermaskViewController", "TensilefilterViewController",
-                      "GroupOfTransparentViewController", "TransformViewController",
-                      "Transform3DViewController", "SolidObjectViewController"]
+                      "LayermaskViewController", "TensilefilterViewController"]
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
