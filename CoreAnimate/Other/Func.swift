@@ -7,9 +7,6 @@
 //
 
 import Foundation
-import GLKit
-import QuartzCore
-import UIKit
 /// 打印信息的宏
 ///
 /// - Parameters:

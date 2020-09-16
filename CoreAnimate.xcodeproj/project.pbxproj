@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1713BB672511FDBB0029F70C /* SpecialLayerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1713BB662511FDBB0029F70C /* SpecialLayerTableViewController.swift */; };
+		1713BB692511FE3B0029F70C /* ShapeLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1713BB682511FE3B0029F70C /* ShapeLayerViewController.swift */; };
+		1713BB6B2511FEA30029F70C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1713BB6A2511FEA30029F70C /* Config.swift */; };
 		17A259CD2511C0AA007F0773 /* Transform3DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A259CC2511C0AA007F0773 /* Transform3DViewController.swift */; };
 		17A259D12511E214007F0773 /* SolidObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A259D02511E214007F0773 /* SolidObjectViewController.swift */; };
 		17A259D32511FB36007F0773 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A259D22511FB36007F0773 /* BaseTableViewController.swift */; };
@@ -34,6 +37,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1713BB662511FDBB0029F70C /* SpecialLayerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialLayerTableViewController.swift; sourceTree = "<group>"; };
+		1713BB682511FE3B0029F70C /* ShapeLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeLayerViewController.swift; sourceTree = "<group>"; };
+		1713BB6A2511FEA30029F70C /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		17A259CC2511C0AA007F0773 /* Transform3DViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transform3DViewController.swift; sourceTree = "<group>"; };
 		17A259D02511E214007F0773 /* SolidObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidObjectViewController.swift; sourceTree = "<group>"; };
 		17A259D22511FB36007F0773 /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +82,8 @@
 		17A259D62511FD75007F0773 /* 专用图层 */ = {
 			isa = PBXGroup;
 			children = (
+				1713BB662511FDBB0029F70C /* SpecialLayerTableViewController.swift */,
+				1713BB682511FE3B0029F70C /* ShapeLayerViewController.swift */,
 			);
 			path = "专用图层";
 			sourceTree = "<group>";
@@ -147,6 +155,7 @@
 				17BAFE3325109F7A001A4C85 /* NSObject+Extension.swift */,
 				17BAFE3525109FB1001A4C85 /* Func.swift */,
 				17BAFE372510A158001A4C85 /* Proxy.swift */,
+				1713BB6A2511FEA30029F70C /* Config.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -234,12 +243,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				17BAFE2C251095A8001A4C85 /* BaseViewController.swift in Sources */,
+				1713BB692511FE3B0029F70C /* ShapeLayerViewController.swift in Sources */,
 				17BAFE3E2510B746001A4C85 /* ShadowPathViewController.swift in Sources */,
 				17A259D32511FB36007F0773 /* BaseTableViewController.swift in Sources */,
 				17BAFE2A251092E9001A4C85 /* TimerViewController.swift in Sources */,
+				1713BB6B2511FEA30029F70C /* Config.swift in Sources */,
 				17BAFE12251063C6001A4C85 /* AppDelegate.swift in Sources */,
 				17BAFE442510CD2B001A4C85 /* GroupOfTransparentViewController.swift in Sources */,
 				17A259D52511FBC6007F0773 /* TransFormTableViewController.swift in Sources */,
+				1713BB672511FDBB0029F70C /* SpecialLayerTableViewController.swift in Sources */,
 				17BAFE3625109FB1001A4C85 /* Func.swift in Sources */,
 				17BAFE382510A158001A4C85 /* Proxy.swift in Sources */,
 				17BAFE422510BE18001A4C85 /* TensilefilterViewController.swift in Sources */,

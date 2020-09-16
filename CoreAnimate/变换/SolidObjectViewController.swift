@@ -6,7 +6,6 @@
 //  Copyright © 2020 heiyanmacmini. All rights reserved.
 //
 
-import GLKit
 import UIKit
 /**
    固体对象

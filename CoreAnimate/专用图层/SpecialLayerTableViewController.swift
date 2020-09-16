@@ -1,5 +1,5 @@
 //
-//  BaseTableViewController.swift
+//  SpecialLayerTableViewController.swift
 //  CoreAnimate
 //
 //  Created by heiyanmacmini on 2020/9/16.
@@ -8,15 +8,11 @@
 
 import UIKit
 
-class BaseTableViewController: UITableViewController {
-    var textLabelString = [String]()
-    var classNames = [String]()
-
+class SpecialLayerTableViewController: BaseTableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "reuseIdentifier")
-        textLabelString = ["视觉效果", "变换", "专用图层"]
-        classNames = ["CoreAnimateTableViewController", "TransFormTableViewController", "SpecialLayerTableViewController"]
+        textLabelString = ["CAShapeLayer"]
+        classNames = ["ShapeLayerViewController"]
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -30,7 +26,7 @@ class BaseTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        guard let ctrl = classTableFromString(classNames[indexPath.row]) else { return }
+        guard let ctrl = classFromString(classNames[indexPath.row]) else { return }
         navigationController?.pushViewController(ctrl, animated: true)
     }
 }
