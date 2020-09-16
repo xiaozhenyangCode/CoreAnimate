@@ -11,8 +11,8 @@ import UIKit
 class SpecialLayerTableViewController: BaseTableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        textLabelString = ["CAShapeLayer"]
-        classNames = ["ShapeLayerViewController"]
+        textLabelString = ["CAShapeLayer", "CATextLayer"]
+        classNames = ["ShapeLayerViewController", "TextLayerViewController"]
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

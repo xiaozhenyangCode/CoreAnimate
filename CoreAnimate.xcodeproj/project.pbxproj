@@ -10,6 +10,7 @@
 		1713BB672511FDBB0029F70C /* SpecialLayerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1713BB662511FDBB0029F70C /* SpecialLayerTableViewController.swift */; };
 		1713BB692511FE3B0029F70C /* ShapeLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1713BB682511FE3B0029F70C /* ShapeLayerViewController.swift */; };
 		1713BB6B2511FEA30029F70C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1713BB6A2511FEA30029F70C /* Config.swift */; };
+		1713BB6D2512186C0029F70C /* TextLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1713BB6C2512186C0029F70C /* TextLayerViewController.swift */; };
 		17A259CD2511C0AA007F0773 /* Transform3DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A259CC2511C0AA007F0773 /* Transform3DViewController.swift */; };
 		17A259D12511E214007F0773 /* SolidObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A259D02511E214007F0773 /* SolidObjectViewController.swift */; };
 		17A259D32511FB36007F0773 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A259D22511FB36007F0773 /* BaseTableViewController.swift */; };
@@ -40,6 +41,7 @@
 		1713BB662511FDBB0029F70C /* SpecialLayerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialLayerTableViewController.swift; sourceTree = "<group>"; };
 		1713BB682511FE3B0029F70C /* ShapeLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeLayerViewController.swift; sourceTree = "<group>"; };
 		1713BB6A2511FEA30029F70C /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		1713BB6C2512186C0029F70C /* TextLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLayerViewController.swift; sourceTree = "<group>"; };
 		17A259CC2511C0AA007F0773 /* Transform3DViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transform3DViewController.swift; sourceTree = "<group>"; };
 		17A259D02511E214007F0773 /* SolidObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidObjectViewController.swift; sourceTree = "<group>"; };
 		17A259D22511FB36007F0773 /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 			children = (
 				1713BB662511FDBB0029F70C /* SpecialLayerTableViewController.swift */,
 				1713BB682511FE3B0029F70C /* ShapeLayerViewController.swift */,
+				1713BB6C2512186C0029F70C /* TextLayerViewController.swift */,
 			);
 			path = "专用图层";
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				17A259D12511E214007F0773 /* SolidObjectViewController.swift in Sources */,
 				17BAFE2825107283001A4C85 /* CoreAnimateTableViewController.swift in Sources */,
 				17DF6A092511BAAD00362FD8 /* TransformViewController.swift in Sources */,
+				1713BB6D2512186C0029F70C /* TextLayerViewController.swift in Sources */,
 				17BAFE3225109D19001A4C85 /* CornerRadiusViewController.swift in Sources */,
 				17BAFE14251063C6001A4C85 /* SceneDelegate.swift in Sources */,
 				17BAFE3025109B31001A4C85 /* HitTestViewController.swift in Sources */,
