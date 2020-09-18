@@ -72,9 +72,9 @@ class TextLayerViewController: BaseViewController {
 
         attais = [kCTForegroundColorAttributeName: UIColor.red.cgColor,
                   kCTUnderlineColorAttributeName: UIColor.blue.cgColor,
-                  kCTUnderlineStyleAttributeName: CTUnderlineStyle.single,
+                  kCTUnderlineStyleAttributeName: CTUnderlineStyle.double,
                   kCTFontAttributeName: fontRef!] as [CFString: Any]
-        
+
         attrString.setAttributes(attais as [NSAttributedString.Key: Any], range: NSRange(location: 19, length: 16))
 
         attrTextLayer.string = attrString
