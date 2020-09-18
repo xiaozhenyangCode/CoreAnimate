@@ -35,6 +35,7 @@
 		17BAFE422510BE18001A4C85 /* TensilefilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BAFE412510BE18001A4C85 /* TensilefilterViewController.swift */; };
 		17BAFE442510CD2B001A4C85 /* GroupOfTransparentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BAFE432510CD2B001A4C85 /* GroupOfTransparentViewController.swift */; };
 		17DF6A092511BAAD00362FD8 /* TransformViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF6A082511BAAD00362FD8 /* TransformViewController.swift */; };
+		FE78DF762514629E0079CD29 /* LayerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE78DF752514629E0079CD29 /* LayerLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		17BAFE412510BE18001A4C85 /* TensilefilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TensilefilterViewController.swift; sourceTree = "<group>"; };
 		17BAFE432510CD2B001A4C85 /* GroupOfTransparentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupOfTransparentViewController.swift; sourceTree = "<group>"; };
 		17DF6A082511BAAD00362FD8 /* TransformViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformViewController.swift; sourceTree = "<group>"; };
+		FE78DF752514629E0079CD29 /* LayerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				1713BB662511FDBB0029F70C /* SpecialLayerTableViewController.swift */,
 				1713BB682511FE3B0029F70C /* ShapeLayerViewController.swift */,
 				1713BB6C2512186C0029F70C /* TextLayerViewController.swift */,
+				FE78DF752514629E0079CD29 /* LayerLabel.swift */,
 			);
 			path = "专用图层";
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 			files = (
 				17BAFE2C251095A8001A4C85 /* BaseViewController.swift in Sources */,
 				1713BB692511FE3B0029F70C /* ShapeLayerViewController.swift in Sources */,
+				FE78DF762514629E0079CD29 /* LayerLabel.swift in Sources */,
 				17BAFE3E2510B746001A4C85 /* ShadowPathViewController.swift in Sources */,
 				17A259D32511FB36007F0773 /* BaseTableViewController.swift in Sources */,
 				17BAFE2A251092E9001A4C85 /* TimerViewController.swift in Sources */,

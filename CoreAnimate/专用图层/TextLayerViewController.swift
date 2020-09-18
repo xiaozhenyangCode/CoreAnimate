@@ -27,6 +27,24 @@ import UIKit
  iOS 6中，Apple给UILabel和其他UIKit文本视图添加了直接的属性化字符串的支持，应该说这是一个很方便的特性。不过事实上从iOS3.2开始CATextLayer就已经支持属性化字符串了。这样的话，如果你想要支持更低版本的iOS系统，CATextLayer无疑是你向界面中增加富文本的好办法，而且也不用去跟复杂的Core Text打交道，也省了用UIWebView的麻烦。
 
  让我们编辑一下示例使用到NSAttributedString（见清单6.3）.iOS 6及以上我们可以用新的NSTextAttributeName实例来设置我们的字符串属性，但是练习的目的是为了演示在iOS 5及以下，所以我们用了Core Text，也就是说你需要把Core Text framework添加到你的项目中。否则，编译器是无法识别属性常量的。
+
+ 行距和字距
+
+ 有必要提一下的是，由于绘制的实现机制不同（Core Text和WebKit），用CATextLayer渲染和用UILabel渲染出的文本行距和字距也不是不尽相同的。
+
+ 二者的差异程度（由使用的字体和字符决定）总的来说挺小，但是如果你想正确的显示普通便签和CATextLayer就一定要记住这一点。
+
+ UILabel的替代品
+
+ 我们已经证实了CATextLayer比UILabel有着更好的性能表现，同时还有额外的布局选项并且在iOS 5上支持富文本。但是与一般的标签比较而言会更加繁琐一些。如果我们真的在需求一个UILabel的可用替代品，最好是能够在Interface Builder上创建我们的标签，而且尽可能地像一般的视图一样正常工作。
+
+ 我们应该继承UILabel，然后添加一个子图层CATextLayer并重写显示文本的方法。但是仍然会有由UILabel的-drawRect:方法创建的空寄宿图。而且由于CALayer不支持自动缩放和自动布局，子视图并不是主动跟踪视图边界的大小，所以每次视图大小被更改，我们不得不手动更新子图层的边界。
+
+ 我们真正想要的是一个用CATextLayer作为宿主图层的UILabel子类，这样就可以随着视图自动调整大小而且也没有冗余的寄宿图啦。
+
+ 每一个UIView都是寄宿在一个CALayer的示例上。这个图层是由视图自动创建和管理的，那我们可以用别的图层类型替代它么？一旦被创建，我们就无法代替这个图层了。但是如果我们继承了UIView，那我们就可以重写+layerClass方法使得在创建的时候能返回一个不同的图层子类。UIView会在初始化的时候调用+layerClass方法，然后用它的返回类型来创建宿主图层。
+
+ 清单6.4 演示了一个UILabel子类LayerLabel用CATextLayer绘制它的问题，而不是调用一般的UILabel使用的较慢的-drawRect：方法。LayerLabel示例既可以用代码实现，也可以在Interface Builder实现，只要把普通的标签拖入视图之中，然后设置它的类是LayerLabel就可以了。
  */
 class TextLayerViewController: BaseViewController {
     override func viewDidLoad() {
