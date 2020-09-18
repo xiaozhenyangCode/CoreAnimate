@@ -36,6 +36,8 @@
 		17BAFE442510CD2B001A4C85 /* GroupOfTransparentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BAFE432510CD2B001A4C85 /* GroupOfTransparentViewController.swift */; };
 		17DF6A092511BAAD00362FD8 /* TransformViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF6A082511BAAD00362FD8 /* TransformViewController.swift */; };
 		FE78DF762514629E0079CD29 /* LayerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE78DF752514629E0079CD29 /* LayerLabel.swift */; };
+		FEC32359251487FA0036846D /* TransformLayerViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC32358251487FA0036846D /* TransformLayerViewCtrl.swift */; };
+		FEC3235C2514891C0036846D /* GradientLayerViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3235B2514891C0036846D /* GradientLayerViewCtrl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,8 @@
 		17BAFE432510CD2B001A4C85 /* GroupOfTransparentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupOfTransparentViewController.swift; sourceTree = "<group>"; };
 		17DF6A082511BAAD00362FD8 /* TransformViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformViewController.swift; sourceTree = "<group>"; };
 		FE78DF752514629E0079CD29 /* LayerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerLabel.swift; sourceTree = "<group>"; };
+		FEC32358251487FA0036846D /* TransformLayerViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformLayerViewCtrl.swift; sourceTree = "<group>"; };
+		FEC3235B2514891C0036846D /* GradientLayerViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLayerViewCtrl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,10 +90,12 @@
 		17A259D62511FD75007F0773 /* 专用图层 */ = {
 			isa = PBXGroup;
 			children = (
+				FE78DF752514629E0079CD29 /* LayerLabel.swift */,
 				1713BB662511FDBB0029F70C /* SpecialLayerTableViewController.swift */,
 				1713BB682511FE3B0029F70C /* ShapeLayerViewController.swift */,
 				1713BB6C2512186C0029F70C /* TextLayerViewController.swift */,
-				FE78DF752514629E0079CD29 /* LayerLabel.swift */,
+				FEC32358251487FA0036846D /* TransformLayerViewCtrl.swift */,
+				FEC3235B2514891C0036846D /* GradientLayerViewCtrl.swift */,
 			);
 			path = "专用图层";
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 				1713BB6B2511FEA30029F70C /* Config.swift in Sources */,
 				17BAFE12251063C6001A4C85 /* AppDelegate.swift in Sources */,
 				17BAFE442510CD2B001A4C85 /* GroupOfTransparentViewController.swift in Sources */,
+				FEC3235C2514891C0036846D /* GradientLayerViewCtrl.swift in Sources */,
 				17A259D52511FBC6007F0773 /* TransFormTableViewController.swift in Sources */,
+				FEC32359251487FA0036846D /* TransformLayerViewCtrl.swift in Sources */,
 				1713BB672511FDBB0029F70C /* SpecialLayerTableViewController.swift in Sources */,
 				17BAFE3625109FB1001A4C85 /* Func.swift in Sources */,
 				17BAFE382510A158001A4C85 /* Proxy.swift in Sources */,

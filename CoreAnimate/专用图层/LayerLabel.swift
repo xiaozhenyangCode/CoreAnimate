@@ -6,7 +6,6 @@
 //  Copyright © 2020 heiyanmacmini. All rights reserved.
 //
 
-import Foundation
 import UIKit
 class LayerLabel: UILabel {
     override class var layerClass: AnyClass {
