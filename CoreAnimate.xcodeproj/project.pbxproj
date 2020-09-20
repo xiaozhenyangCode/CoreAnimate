@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -35,6 +35,7 @@
 		17BAFE422510BE18001A4C85 /* TensilefilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BAFE412510BE18001A4C85 /* TensilefilterViewController.swift */; };
 		17BAFE442510CD2B001A4C85 /* GroupOfTransparentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BAFE432510CD2B001A4C85 /* GroupOfTransparentViewController.swift */; };
 		17DF6A092511BAAD00362FD8 /* TransformViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF6A082511BAAD00362FD8 /* TransformViewController.swift */; };
+		4BAF7C4B2515DA530013DDEF /* ReplicatorLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAF7C4A2515DA530013DDEF /* ReplicatorLayerViewController.swift */; };
 		A91D6E6C3EC6CD32C40ECCFF /* Pods_CoreAnimate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490A498E85A8309E271B89EB /* Pods_CoreAnimate.framework */; };
 		FE78DF762514629E0079CD29 /* LayerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE78DF752514629E0079CD29 /* LayerLabel.swift */; };
 		FEC32359251487FA0036846D /* TransformLayerViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC32358251487FA0036846D /* TransformLayerViewCtrl.swift */; };
@@ -75,6 +76,7 @@
 		43A62C880DD43114BBB3935D /* Pods-CoreAnimate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreAnimate.debug.xcconfig"; path = "Target Support Files/Pods-CoreAnimate/Pods-CoreAnimate.debug.xcconfig"; sourceTree = "<group>"; };
 		490A498E85A8309E271B89EB /* Pods_CoreAnimate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreAnimate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B69C3A1401F9FE0B4A1A347 /* Pods-CoreAnimate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreAnimate.release.xcconfig"; path = "Target Support Files/Pods-CoreAnimate/Pods-CoreAnimate.release.xcconfig"; sourceTree = "<group>"; };
+		4BAF7C4A2515DA530013DDEF /* ReplicatorLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplicatorLayerViewController.swift; sourceTree = "<group>"; };
 		FE78DF752514629E0079CD29 /* LayerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerLabel.swift; sourceTree = "<group>"; };
 		FEC32358251487FA0036846D /* TransformLayerViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformLayerViewCtrl.swift; sourceTree = "<group>"; };
 		FEC3235B2514891C0036846D /* GradientLayerViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLayerViewCtrl.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				1713BB6C2512186C0029F70C /* TextLayerViewController.swift */,
 				FEC32358251487FA0036846D /* TransformLayerViewCtrl.swift */,
 				FEC3235B2514891C0036846D /* GradientLayerViewCtrl.swift */,
+				4BAF7C4A2515DA530013DDEF /* ReplicatorLayerViewController.swift */,
 			);
 			path = "专用图层";
 			sourceTree = "<group>";
@@ -196,7 +199,6 @@
 				43A62C880DD43114BBB3935D /* Pods-CoreAnimate.debug.xcconfig */,
 				4B69C3A1401F9FE0B4A1A347 /* Pods-CoreAnimate.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -327,6 +329,7 @@
 				1713BB692511FE3B0029F70C /* ShapeLayerViewController.swift in Sources */,
 				FE78DF762514629E0079CD29 /* LayerLabel.swift in Sources */,
 				17BAFE3E2510B746001A4C85 /* ShadowPathViewController.swift in Sources */,
+				4BAF7C4B2515DA530013DDEF /* ReplicatorLayerViewController.swift in Sources */,
 				17A259D32511FB36007F0773 /* BaseTableViewController.swift in Sources */,
 				17BAFE2A251092E9001A4C85 /* TimerViewController.swift in Sources */,
 				1713BB6B2511FEA30029F70C /* Config.swift in Sources */,
