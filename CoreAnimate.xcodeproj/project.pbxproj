@@ -38,6 +38,7 @@
 		4BAF7C4B2515DA530013DDEF /* ReplicatorLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAF7C4A2515DA530013DDEF /* ReplicatorLayerViewController.swift */; };
 		FE78DF762514629E0079CD29 /* LayerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE78DF752514629E0079CD29 /* LayerLabel.swift */; };
 		FE910FC025186D60008538E5 /* ScrollLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE910FBF25186D60008538E5 /* ScrollLayerViewController.swift */; };
+		FE910FC4251874A9008538E5 /* TiledLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE910FC3251874A9008538E5 /* TiledLayerViewController.swift */; };
 		FEC32359251487FA0036846D /* TransformLayerViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC32358251487FA0036846D /* TransformLayerViewCtrl.swift */; };
 		FEC3235C2514891C0036846D /* GradientLayerViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3235B2514891C0036846D /* GradientLayerViewCtrl.swift */; };
 /* End PBXBuildFile section */
@@ -79,6 +80,7 @@
 		4BAF7C4A2515DA530013DDEF /* ReplicatorLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplicatorLayerViewController.swift; sourceTree = "<group>"; };
 		FE78DF752514629E0079CD29 /* LayerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerLabel.swift; sourceTree = "<group>"; };
 		FE910FBF25186D60008538E5 /* ScrollLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollLayerViewController.swift; sourceTree = "<group>"; };
+		FE910FC3251874A9008538E5 /* TiledLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiledLayerViewController.swift; sourceTree = "<group>"; };
 		FEC32358251487FA0036846D /* TransformLayerViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformLayerViewCtrl.swift; sourceTree = "<group>"; };
 		FEC3235B2514891C0036846D /* GradientLayerViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLayerViewCtrl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +107,7 @@
 				FEC3235B2514891C0036846D /* GradientLayerViewCtrl.swift */,
 				4BAF7C4A2515DA530013DDEF /* ReplicatorLayerViewController.swift */,
 				FE910FBF25186D60008538E5 /* ScrollLayerViewController.swift */,
+				FE910FC3251874A9008538E5 /* TiledLayerViewController.swift */,
 			);
 			path = "专用图层";
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				TargetAttributes = {
 					17BAFE0D251063C6001A4C85 = {
 						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1170;
 					};
 				};
 			};
@@ -349,6 +353,7 @@
 				17A259CD2511C0AA007F0773 /* Transform3DViewController.swift in Sources */,
 				17BAFE402510B90F001A4C85 /* LayermaskViewController.swift in Sources */,
 				17BAFE3425109F7A001A4C85 /* NSObject+Extension.swift in Sources */,
+				FE910FC4251874A9008538E5 /* TiledLayerViewController.swift in Sources */,
 				17A259D12511E214007F0773 /* SolidObjectViewController.swift in Sources */,
 				17BAFE2825107283001A4C85 /* CoreAnimateTableViewController.swift in Sources */,
 				17DF6A092511BAAD00362FD8 /* TransformViewController.swift in Sources */,
@@ -502,6 +507,7 @@
 			baseConfigurationReference = 43A62C880DD43114BBB3935D /* Pods-CoreAnimate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q6B4M6E2E6;
 				INFOPLIST_FILE = "$(SRCROOT)/CoreAnimate/Other/Info.plist";
@@ -511,6 +517,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zheyang.www.CoreAnimate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -521,6 +529,7 @@
 			baseConfigurationReference = 4B69C3A1401F9FE0B4A1A347 /* Pods-CoreAnimate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q6B4M6E2E6;
 				INFOPLIST_FILE = "$(SRCROOT)/CoreAnimate/Other/Info.plist";
@@ -530,6 +539,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zheyang.www.CoreAnimate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
