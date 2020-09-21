@@ -23,6 +23,7 @@ class TransformLayerViewCtrl: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = UIColor(red: 191 / 256, green: 191 / 256, blue: 191 / 256, alpha: 1.0)
 
         containerView = UIView(frame: CGRect(x: 0, y: 0, width: 200, height: 200))
         view.addSubview(containerView)

@@ -36,7 +36,6 @@
 		17BAFE442510CD2B001A4C85 /* GroupOfTransparentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BAFE432510CD2B001A4C85 /* GroupOfTransparentViewController.swift */; };
 		17DF6A092511BAAD00362FD8 /* TransformViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF6A082511BAAD00362FD8 /* TransformViewController.swift */; };
 		4BAF7C4B2515DA530013DDEF /* ReplicatorLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAF7C4A2515DA530013DDEF /* ReplicatorLayerViewController.swift */; };
-		A91D6E6C3EC6CD32C40ECCFF /* Pods_CoreAnimate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490A498E85A8309E271B89EB /* Pods_CoreAnimate.framework */; };
 		FE78DF762514629E0079CD29 /* LayerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE78DF752514629E0079CD29 /* LayerLabel.swift */; };
 		FEC32359251487FA0036846D /* TransformLayerViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC32358251487FA0036846D /* TransformLayerViewCtrl.swift */; };
 		FEC3235C2514891C0036846D /* GradientLayerViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3235B2514891C0036846D /* GradientLayerViewCtrl.swift */; };
@@ -87,7 +86,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A91D6E6C3EC6CD32C40ECCFF /* Pods_CoreAnimate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
