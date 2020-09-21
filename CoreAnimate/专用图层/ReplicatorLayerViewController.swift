@@ -5,7 +5,7 @@
 //  Created by 振阳的 Macbook Pro on 2020/9/19.
 //  Copyright © 2020 heiyanmacmini. All rights reserved.
 //
-
+// Replicator 复制因子
 import UIKit
 /**
   CAReplicatorLayer
@@ -25,7 +25,7 @@ import UIKit
  使用CAReplicatorLayer并应用一个负比例变换于一个复制图层，你就可以创建指定视图（或整个视图层次）内容的镜像图片，这样就创建了一个实时的『反射』效果。让我们来尝试实现这个创意：指定一个继承于UIView的ReflectionView，它会自动产生内容的反射效果。实现这个效果的代码很简单，实际上用ReflectionView实现这个效果会更简单，它就会实时生成子视图的反射，而不需要别的代码。
 
  开源代码ReflectionView完成了一个自适应的渐变淡出效果（用CAGradientLayer和图层蒙板实现），代码见 https://github.com/nicklockwood/ReflectionView
-                                       */
+                                         */
 class ReplicatorLayerViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()

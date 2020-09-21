@@ -12,10 +12,10 @@ class SpecialLayerTableViewController: BaseTableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         textLabelString = ["CAShapeLayer", "CATextLayer", "CATransformLayer", "CAGradientLayer",
-                           "CAReplicatorLayer", "CAScrollLayer", "CATiledLayer"]
-        
+                           "CAReplicatorLayer", "CAScrollLayer", "CATiledLayer", "CAEmitterLayer"]
+
         classNames = ["ShapeLayerViewController", "TextLayerViewController", "TransformLayerViewCtrl", "GradientLayerViewCtrl",
-                      "ReplicatorLayerViewController", "ScrollLayerViewController", "TiledLayerViewController"]
+                      "ReplicatorLayerViewController", "ScrollLayerViewController", "TiledLayerViewController", "EmitterLayerViewController"]
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

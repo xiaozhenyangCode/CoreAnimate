@@ -5,7 +5,7 @@
 //  Created by heiyanmini on 2020/9/18.
 //  Copyright © 2020 heiyanmacmini. All rights reserved.
 //
-
+// Gradient 梯度
 import UIKit
 /**
  CAGradientLayer

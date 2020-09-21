@@ -5,7 +5,7 @@
 //  Created by heiyanmini on 2020/9/21.
 //  Copyright © 2020 heiyanmacmini. All rights reserved.
 //
-
+// Tiled 平铺的
 import UIKit
 /**
  CATiledLayer
