@@ -18,12 +18,18 @@ import UIKit
  在iOS5中，苹果引入了一个新的框架叫做GLKit，它去掉了一些设置OpenGL的复杂性，提供了一个叫做CLKView的UIView的子类，帮你处理大部分的设置和绘制工作。前提是各种各样的OpenGL绘图缓冲的底层可配置项仍然需要你用CAEAGLLayer完成，它是CALayer的一个子类，用来显示任意的OpenGL图形。
  大部分情况下你都不需要手动设置CAEAGLLayer（假设用GLKView），过去的日子就不要再提了。特别的，我们将设置一个OpenGL ES 2.0的上下文，它是现代的iOS设备的标准做法。
  尽管不需要GLKit也可以做到这一切，但是GLKit囊括了很多额外的工作，比如设置顶点和片段着色器，这些都以类C语言叫做GLSL自包含在程序中，同时在运行时载入到图形硬件中。编写GLSL代码和设置EAGLayer没有什么关系，所以我们将用GLKBaseEffect类将着色逻辑抽象出来。其他的事情，我们还是会有以往的方式。
+
+ 在一个真正的OpenGL应用中，我们可能会用NSTimer或CADisplayLink周期性地每秒钟调用-drawRrame方法60次，同时会将几何图形生成和绘制分开以便不会每次都重新生成三角形的顶点（这样也可以让我们绘制其他的一些东西而不是一个三角形而已），不过上面这个例子已经足够演示了绘图原则了。
  */
 class EAGLLayerViewController: BaseViewController {
     var glView: UIView!
     var glContext: EAGLContext!
     var glLayer: CAEAGLLayer!
-    var frameBuffer: GLuint!
+    var frameBuffer = GLuint()
+    var colorRenderbuffer = GLuint()
+    var framebufferWidth = GLint()
+    var framebufferHeight = GLint()
+    var effect: GLKBaseEffect!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,5 +39,70 @@ class EAGLLayerViewController: BaseViewController {
         glView.center = view.center
 
         glContext = EAGLContext(api: .openGLES2)
+        EAGLContext.setCurrent(glContext)
+
+        glLayer = CAEAGLLayer()
+        glLayer.frame = glView.bounds
+        glView.layer.addSublayer(glLayer)
+        glLayer.drawableProperties = [kEAGLDrawablePropertyRetainedBacking: "NO", kEAGLDrawablePropertyColorFormat: kEAGLColorFormatRGBA8]
+
+        effect = GLKBaseEffect()
+
+        setUpBuffers()
+
+        drawFrame()
+    }
+
+    func setUpBuffers() {
+        glGenFramebuffers(1, &frameBuffer)
+        glBindFramebuffer(GLenum(GL_FRAMEBUFFER), frameBuffer)
+
+        glGenRenderbuffers(1, &colorRenderbuffer)
+        glBindRenderbuffer(GLenum(GL_RENDERBUFFER), colorRenderbuffer)
+        
+        glFramebufferRenderbuffer(GLenum(GL_FRAMEBUFFER), GLenum(GL_COLOR_ATTACHMENT0), GLenum(GL_RENDERBUFFER), colorRenderbuffer)
+        glContext.renderbufferStorage(Int(GL_RENDERBUFFER), from: glLayer)
+        
+        glGetRenderbufferParameteriv(GLenum(GL_RENDERBUFFER), GLenum(GL_RENDERBUFFER_WIDTH), &framebufferWidth)
+        glGetRenderbufferParameteriv(GLenum(GL_RENDERBUFFER), GLenum(GL_RENDERBUFFER_HEIGHT), &framebufferHeight)
+
+        if glCheckFramebufferStatus(GLenum(GL_FRAMEBUFFER)) != GL_FRAMEBUFFER_COMPLETE {
+            printf("Failed to make complete framebuffer object \(glCheckFramebufferStatus(GLenum(GL_FRAMEBUFFER)))")
+        }
+    }
+
+    func drawFrame() {
+        glBindFramebuffer(GLenum(GL_FRAMEBUFFER), frameBuffer)
+        glViewport(0, 0, framebufferWidth, framebufferHeight)
+
+        effect.prepareToDraw()
+
+        glClear(GLbitfield(GL_COLOR_BUFFER_BIT))
+        glClearColor(0, 0, 0, 1)
+
+        let vertices = [-0.5, -0.5, -1.0, 0.0, 0.5, -1.0, 0.5, -0.5, -1.0]
+
+        let colors = [0.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0]
+
+        glEnableVertexAttribArray(GLuint(GLKVertexAttrib.position.rawValue))
+        glEnableVertexAttribArray(GLuint(GLKVertexAttrib.color.rawValue))
+        glVertexAttribPointer(GLuint(GLKVertexAttrib.position.rawValue), 3, GLenum(GL_FLOAT), GLboolean(GL_FALSE), 0, vertices)
+        glVertexAttribPointer(GLuint(GLKVertexAttrib.color.rawValue), 4, GLenum(GL_FLOAT), GLboolean(GL_FALSE), 0, colors)
+        glDrawArrays(GLenum(GL_TRIANGLES), 0, 3)
+
+        glBindRenderbuffer(GLenum(GL_RENDERBUFFER), colorRenderbuffer)
+        glContext.presentRenderbuffer(Int(GL_RENDERBUFFER))
+    }
+
+    func tearDownBuffers() {
+        glDeleteFramebuffers(1, &frameBuffer)
+        frameBuffer = 0
+        glDeleteRenderbuffers(1, &colorRenderbuffer)
+        colorRenderbuffer = 0
+    }
+
+    deinit {
+        tearDownBuffers()
+        EAGLContext.setCurrent(nil)
     }
 }

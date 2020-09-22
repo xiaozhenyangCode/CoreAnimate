@@ -16,7 +16,6 @@
 		17A259D32511FB36007F0773 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A259D22511FB36007F0773 /* BaseTableViewController.swift */; };
 		17A259D52511FBC6007F0773 /* TransFormTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A259D42511FBC6007F0773 /* TransFormTableViewController.swift */; };
 		17BAFE12251063C6001A4C85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BAFE11251063C6001A4C85 /* AppDelegate.swift */; };
-		17BAFE14251063C6001A4C85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BAFE13251063C6001A4C85 /* SceneDelegate.swift */; };
 		17BAFE19251063C6001A4C85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BAFE17251063C6001A4C85 /* Main.storyboard */; };
 		17BAFE1B251063C7001A4C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17BAFE1A251063C7001A4C85 /* Assets.xcassets */; };
 		17BAFE1E251063C7001A4C85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BAFE1C251063C7001A4C85 /* LaunchScreen.storyboard */; };
@@ -56,7 +55,6 @@
 		17A259D42511FBC6007F0773 /* TransFormTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransFormTableViewController.swift; sourceTree = "<group>"; };
 		17BAFE0E251063C6001A4C85 /* CoreAnimate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17BAFE11251063C6001A4C85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		17BAFE13251063C6001A4C85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		17BAFE18251063C6001A4C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17BAFE1A251063C7001A4C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17BAFE1D251063C7001A4C85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -171,7 +169,6 @@
 			children = (
 				17A259D22511FB36007F0773 /* BaseTableViewController.swift */,
 				17BAFE11251063C6001A4C85 /* AppDelegate.swift */,
-				17BAFE13251063C6001A4C85 /* SceneDelegate.swift */,
 				17BAFE2B251095A8001A4C85 /* BaseViewController.swift */,
 			);
 			path = Base;
@@ -367,7 +364,6 @@
 				17DF6A092511BAAD00362FD8 /* TransformViewController.swift in Sources */,
 				1713BB6D2512186C0029F70C /* TextLayerViewController.swift in Sources */,
 				17BAFE3225109D19001A4C85 /* CornerRadiusViewController.swift in Sources */,
-				17BAFE14251063C6001A4C85 /* SceneDelegate.swift in Sources */,
 				17BAFE3025109B31001A4C85 /* HitTestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -519,6 +515,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q6B4M6E2E6;
 				INFOPLIST_FILE = "$(SRCROOT)/CoreAnimate/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -541,6 +538,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q6B4M6E2E6;
 				INFOPLIST_FILE = "$(SRCROOT)/CoreAnimate/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
