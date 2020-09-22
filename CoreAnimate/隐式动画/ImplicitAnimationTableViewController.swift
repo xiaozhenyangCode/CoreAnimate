@@ -1,22 +1,19 @@
 //
-//  BaseTableViewController.swift
+//  ImplicitAnimationTableViewController.swift
 //  CoreAnimate
 //
-//  Created by heiyanmacmini on 2020/9/16.
+//  Created by heiyanmini on 2020/9/22.
 //  Copyright © 2020 heiyanmacmini. All rights reserved.
 //
 
 import UIKit
 
-class BaseTableViewController: UITableViewController {
-    var textLabelString = [String]()
-    var classNames = [String]()
-
+class ImplicitAnimationTableViewController: BaseTableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "reuseIdentifier")
-        textLabelString = ["视觉效果", "变换", "专用图层", "隐式动画"]
-        classNames = ["CoreAnimateTableViewController", "TransFormTableViewController", "SpecialLayerTableViewController", "ImplicitAnimationTableViewController"]
+        textLabelString = ["事务"]
+
+        classNames = ["TransactionViewController"]
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -30,7 +27,7 @@ class BaseTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        guard let ctrl = classTableFromString(classNames[indexPath.row]) else { return }
+        guard let ctrl = classFromString(classNames[indexPath.row]) else { return }
         navigationController?.pushViewController(ctrl, animated: true)
     }
 }

@@ -37,6 +37,8 @@
 		4BAF7C4B2515DA530013DDEF /* ReplicatorLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAF7C4A2515DA530013DDEF /* ReplicatorLayerViewController.swift */; };
 		FE0D0BDD2519AB6A0074A269 /* AVPlayerLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D0BDC2519AB6A0074A269 /* AVPlayerLayerViewController.swift */; };
 		FE0D0BE82519CAA80074A269 /* 1111.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = FE0D0BE72519CAA80074A269 /* 1111.MP4 */; };
+		FE0D0BEC2519CE380074A269 /* ImplicitAnimationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D0BEB2519CE380074A269 /* ImplicitAnimationTableViewController.swift */; };
+		FE0D0BF02519CE8A0074A269 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D0BEF2519CE8A0074A269 /* TransactionViewController.swift */; };
 		FE3731EB2518A49A00185235 /* EmitterLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3731EA2518A49A00185235 /* EmitterLayerViewController.swift */; };
 		FE734FD32518AFAC00DD3585 /* EAGLLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE734FD22518AFAC00DD3585 /* EAGLLayerViewController.swift */; };
 		FE78DF762514629E0079CD29 /* LayerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE78DF752514629E0079CD29 /* LayerLabel.swift */; };
@@ -83,6 +85,8 @@
 		FE0D0BDC2519AB6A0074A269 /* AVPlayerLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerLayerViewController.swift; sourceTree = "<group>"; };
 		FE0D0BDF2519ABF40074A269 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		FE0D0BE72519CAA80074A269 /* 1111.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1111.MP4; sourceTree = "<group>"; };
+		FE0D0BEB2519CE380074A269 /* ImplicitAnimationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimationTableViewController.swift; sourceTree = "<group>"; };
+		FE0D0BEF2519CE8A0074A269 /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
 		FE3731EA2518A49A00185235 /* EmitterLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmitterLayerViewController.swift; sourceTree = "<group>"; };
 		FE734FD22518AFAC00DD3585 /* EAGLLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EAGLLayerViewController.swift; sourceTree = "<group>"; };
 		FE78DF752514629E0079CD29 /* LayerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerLabel.swift; sourceTree = "<group>"; };
@@ -148,6 +152,7 @@
 				17DF6A042511B96E00362FD8 /* 视觉效果 */,
 				17DF6A072511BA7B00362FD8 /* 变换 */,
 				17A259D62511FD75007F0773 /* 专用图层 */,
+				FE0D0BEA2519CDE60074A269 /* 隐式动画 */,
 				17BAFE0F251063C6001A4C85 /* Products */,
 			);
 			path = CoreAnimate;
@@ -223,6 +228,15 @@
 				490A498E85A8309E271B89EB /* Pods_CoreAnimate.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE0D0BEA2519CDE60074A269 /* 隐式动画 */ = {
+			isa = PBXGroup;
+			children = (
+				FE0D0BEB2519CE380074A269 /* ImplicitAnimationTableViewController.swift */,
+				FE0D0BEF2519CE8A0074A269 /* TransactionViewController.swift */,
+			);
+			path = "隐式动画";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -357,6 +371,7 @@
 				FEC3235C2514891C0036846D /* GradientLayerViewCtrl.swift in Sources */,
 				17A259D52511FBC6007F0773 /* TransFormTableViewController.swift in Sources */,
 				FEC32359251487FA0036846D /* TransformLayerViewCtrl.swift in Sources */,
+				FE0D0BF02519CE8A0074A269 /* TransactionViewController.swift in Sources */,
 				1713BB672511FDBB0029F70C /* SpecialLayerTableViewController.swift in Sources */,
 				17BAFE3625109FB1001A4C85 /* Func.swift in Sources */,
 				FE910FC025186D60008538E5 /* ScrollLayerViewController.swift in Sources */,
@@ -371,6 +386,7 @@
 				FE910FC4251874A9008538E5 /* TiledLayerViewController.swift in Sources */,
 				17A259D12511E214007F0773 /* SolidObjectViewController.swift in Sources */,
 				17BAFE2825107283001A4C85 /* CoreAnimateTableViewController.swift in Sources */,
+				FE0D0BEC2519CE380074A269 /* ImplicitAnimationTableViewController.swift in Sources */,
 				17DF6A092511BAAD00362FD8 /* TransformViewController.swift in Sources */,
 				1713BB6D2512186C0029F70C /* TextLayerViewController.swift in Sources */,
 				17BAFE3225109D19001A4C85 /* CornerRadiusViewController.swift in Sources */,
