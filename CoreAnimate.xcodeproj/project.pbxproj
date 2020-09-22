@@ -35,6 +35,8 @@
 		17BAFE442510CD2B001A4C85 /* GroupOfTransparentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BAFE432510CD2B001A4C85 /* GroupOfTransparentViewController.swift */; };
 		17DF6A092511BAAD00362FD8 /* TransformViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF6A082511BAAD00362FD8 /* TransformViewController.swift */; };
 		4BAF7C4B2515DA530013DDEF /* ReplicatorLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAF7C4A2515DA530013DDEF /* ReplicatorLayerViewController.swift */; };
+		FE0D0BDD2519AB6A0074A269 /* AVPlayerLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D0BDC2519AB6A0074A269 /* AVPlayerLayerViewController.swift */; };
+		FE0D0BE82519CAA80074A269 /* 1111.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = FE0D0BE72519CAA80074A269 /* 1111.MP4 */; };
 		FE3731EB2518A49A00185235 /* EmitterLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3731EA2518A49A00185235 /* EmitterLayerViewController.swift */; };
 		FE734FD32518AFAC00DD3585 /* EAGLLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE734FD22518AFAC00DD3585 /* EAGLLayerViewController.swift */; };
 		FE78DF762514629E0079CD29 /* LayerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE78DF752514629E0079CD29 /* LayerLabel.swift */; };
@@ -78,6 +80,9 @@
 		490A498E85A8309E271B89EB /* Pods_CoreAnimate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreAnimate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B69C3A1401F9FE0B4A1A347 /* Pods-CoreAnimate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreAnimate.release.xcconfig"; path = "Target Support Files/Pods-CoreAnimate/Pods-CoreAnimate.release.xcconfig"; sourceTree = "<group>"; };
 		4BAF7C4A2515DA530013DDEF /* ReplicatorLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplicatorLayerViewController.swift; sourceTree = "<group>"; };
+		FE0D0BDC2519AB6A0074A269 /* AVPlayerLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerLayerViewController.swift; sourceTree = "<group>"; };
+		FE0D0BDF2519ABF40074A269 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FE0D0BE72519CAA80074A269 /* 1111.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1111.MP4; sourceTree = "<group>"; };
 		FE3731EA2518A49A00185235 /* EmitterLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmitterLayerViewController.swift; sourceTree = "<group>"; };
 		FE734FD22518AFAC00DD3585 /* EAGLLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EAGLLayerViewController.swift; sourceTree = "<group>"; };
 		FE78DF752514629E0079CD29 /* LayerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerLabel.swift; sourceTree = "<group>"; };
@@ -112,6 +117,7 @@
 				FE910FC3251874A9008538E5 /* TiledLayerViewController.swift */,
 				FE3731EA2518A49A00185235 /* EmitterLayerViewController.swift */,
 				FE734FD22518AFAC00DD3585 /* EAGLLayerViewController.swift */,
+				FE0D0BDC2519AB6A0074A269 /* AVPlayerLayerViewController.swift */,
 			);
 			path = "专用图层";
 			sourceTree = "<group>";
@@ -177,6 +183,7 @@
 		17DF6A062511B9CF00362FD8 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				FE0D0BE72519CAA80074A269 /* 1111.MP4 */,
 				17BAFE17251063C6001A4C85 /* Main.storyboard */,
 				17BAFE1A251063C7001A4C85 /* Assets.xcassets */,
 				17BAFE1C251063C7001A4C85 /* LaunchScreen.storyboard */,
@@ -212,6 +219,7 @@
 		6B2C06B1C64926FB2C1E3843 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FE0D0BDF2519ABF40074A269 /* AVFoundation.framework */,
 				490A498E85A8309E271B89EB /* Pods_CoreAnimate.framework */,
 			);
 			name = Frameworks;
@@ -281,6 +289,7 @@
 				17BAFE1E251063C7001A4C85 /* LaunchScreen.storyboard in Resources */,
 				17BAFE1B251063C7001A4C85 /* Assets.xcassets in Resources */,
 				17BAFE19251063C6001A4C85 /* Main.storyboard in Resources */,
+				FE0D0BE82519CAA80074A269 /* 1111.MP4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +349,7 @@
 				17BAFE3E2510B746001A4C85 /* ShadowPathViewController.swift in Sources */,
 				4BAF7C4B2515DA530013DDEF /* ReplicatorLayerViewController.swift in Sources */,
 				17A259D32511FB36007F0773 /* BaseTableViewController.swift in Sources */,
+				FE0D0BDD2519AB6A0074A269 /* AVPlayerLayerViewController.swift in Sources */,
 				17BAFE2A251092E9001A4C85 /* TimerViewController.swift in Sources */,
 				1713BB6B2511FEA30029F70C /* Config.swift in Sources */,
 				17BAFE12251063C6001A4C85 /* AppDelegate.swift in Sources */,

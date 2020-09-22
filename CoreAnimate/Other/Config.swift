@@ -12,3 +12,4 @@
 @_exported import GLKit
 @_exported import QuartzCore
 @_exported import UIKit
+@_exported import AVFoundation
