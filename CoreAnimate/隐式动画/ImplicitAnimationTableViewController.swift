@@ -11,9 +11,9 @@ import UIKit
 class ImplicitAnimationTableViewController: BaseTableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        textLabelString = ["事务"]
+        textLabelString = ["事务", "完成块"]
 
-        classNames = ["TransactionViewController"]
+        classNames = ["TransactionViewController", "CompleteBlockViewController"]
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
