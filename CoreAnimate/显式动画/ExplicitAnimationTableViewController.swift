@@ -11,9 +11,9 @@ import UIKit
 class ExplicitAnimationTableViewController: BaseTableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        textLabelString = ["属性动画"]
+        textLabelString = ["属性动画", "动画组"]
 
-        classNames = ["AttributeAnimationViewController"]
+        classNames = ["AttributeAnimationViewController", "AnimationGroupViewController"]
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
