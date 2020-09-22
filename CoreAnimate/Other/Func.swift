@@ -29,6 +29,13 @@ func arcrandomColor() -> UIColor {
     return UIColor(red: CGFloat(arc4random() % 255) / 255, green: CGFloat(arc4random() % 255) / 255, blue: CGFloat(arc4random() % 255) / 255, alpha: 1.0)
 }
 
+func delay(_ seconds: Double = 0.1, completionHandler: @escaping () -> Void) {
+    let time = DispatchTime.now() + Double(Int64(seconds * Double(NSEC_PER_SEC))) / Double(NSEC_PER_SEC)
+    DispatchQueue.main.asyncAfter(deadline: time, execute: {
+        completionHandler()
+    })
+}
+
 func timeStampToString(_ date: Date) -> String {
     let dfmatter = DateFormatter()
     dfmatter.dateFormat = "yyyy/MM/dd HH:mm:ss"

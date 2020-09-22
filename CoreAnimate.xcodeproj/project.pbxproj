@@ -42,6 +42,8 @@
 		FE0D0BF32519D9D10074A269 /* CompleteBlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D0BF22519D9D10074A269 /* CompleteBlockViewController.swift */; };
 		FE0D0BF62519DB8A0074A269 /* LayerBehaviorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D0BF52519DB8A0074A269 /* LayerBehaviorViewController.swift */; };
 		FE0D0BF92519DF3B0074A269 /* PresentationModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D0BF82519DF3B0074A269 /* PresentationModelViewController.swift */; };
+		FE17D4002519E60A007F5E7A /* ExplicitAnimationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE17D3FF2519E60A007F5E7A /* ExplicitAnimationTableViewController.swift */; };
+		FE17D4042519E635007F5E7A /* AttributeAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE17D4032519E635007F5E7A /* AttributeAnimationViewController.swift */; };
 		FE3731EB2518A49A00185235 /* EmitterLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3731EA2518A49A00185235 /* EmitterLayerViewController.swift */; };
 		FE734FD32518AFAC00DD3585 /* EAGLLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE734FD22518AFAC00DD3585 /* EAGLLayerViewController.swift */; };
 		FE78DF762514629E0079CD29 /* LayerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE78DF752514629E0079CD29 /* LayerLabel.swift */; };
@@ -93,6 +95,8 @@
 		FE0D0BF22519D9D10074A269 /* CompleteBlockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteBlockViewController.swift; sourceTree = "<group>"; };
 		FE0D0BF52519DB8A0074A269 /* LayerBehaviorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerBehaviorViewController.swift; sourceTree = "<group>"; };
 		FE0D0BF82519DF3B0074A269 /* PresentationModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationModelViewController.swift; sourceTree = "<group>"; };
+		FE17D3FF2519E60A007F5E7A /* ExplicitAnimationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimationTableViewController.swift; sourceTree = "<group>"; };
+		FE17D4032519E635007F5E7A /* AttributeAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeAnimationViewController.swift; sourceTree = "<group>"; };
 		FE3731EA2518A49A00185235 /* EmitterLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmitterLayerViewController.swift; sourceTree = "<group>"; };
 		FE734FD22518AFAC00DD3585 /* EAGLLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EAGLLayerViewController.swift; sourceTree = "<group>"; };
 		FE78DF752514629E0079CD29 /* LayerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerLabel.swift; sourceTree = "<group>"; };
@@ -159,6 +163,7 @@
 				17DF6A072511BA7B00362FD8 /* 变换 */,
 				17A259D62511FD75007F0773 /* 专用图层 */,
 				FE0D0BEA2519CDE60074A269 /* 隐式动画 */,
+				FE17D3FE2519E508007F5E7A /* 显式动画 */,
 				17BAFE0F251063C6001A4C85 /* Products */,
 			);
 			path = CoreAnimate;
@@ -246,6 +251,15 @@
 				FE0D0BF82519DF3B0074A269 /* PresentationModelViewController.swift */,
 			);
 			path = "隐式动画";
+			sourceTree = "<group>";
+		};
+		FE17D3FE2519E508007F5E7A /* 显式动画 */ = {
+			isa = PBXGroup;
+			children = (
+				FE17D3FF2519E60A007F5E7A /* ExplicitAnimationTableViewController.swift */,
+				FE17D4032519E635007F5E7A /* AttributeAnimationViewController.swift */,
+			);
+			path = "显式动画";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -393,9 +407,11 @@
 				17A259CD2511C0AA007F0773 /* Transform3DViewController.swift in Sources */,
 				17BAFE402510B90F001A4C85 /* LayermaskViewController.swift in Sources */,
 				FE734FD32518AFAC00DD3585 /* EAGLLayerViewController.swift in Sources */,
+				FE17D4042519E635007F5E7A /* AttributeAnimationViewController.swift in Sources */,
 				FE0D0BF92519DF3B0074A269 /* PresentationModelViewController.swift in Sources */,
 				17BAFE3425109F7A001A4C85 /* NSObject+Extension.swift in Sources */,
 				FE910FC4251874A9008538E5 /* TiledLayerViewController.swift in Sources */,
+				FE17D4002519E60A007F5E7A /* ExplicitAnimationTableViewController.swift in Sources */,
 				17A259D12511E214007F0773 /* SolidObjectViewController.swift in Sources */,
 				17BAFE2825107283001A4C85 /* CoreAnimateTableViewController.swift in Sources */,
 				FE0D0BEC2519CE380074A269 /* ImplicitAnimationTableViewController.swift in Sources */,
