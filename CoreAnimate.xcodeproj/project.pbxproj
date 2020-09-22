@@ -40,6 +40,7 @@
 		FE0D0BEC2519CE380074A269 /* ImplicitAnimationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D0BEB2519CE380074A269 /* ImplicitAnimationTableViewController.swift */; };
 		FE0D0BF02519CE8A0074A269 /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D0BEF2519CE8A0074A269 /* TransactionViewController.swift */; };
 		FE0D0BF32519D9D10074A269 /* CompleteBlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D0BF22519D9D10074A269 /* CompleteBlockViewController.swift */; };
+		FE0D0BF62519DB8A0074A269 /* LayerBehaviorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D0BF52519DB8A0074A269 /* LayerBehaviorViewController.swift */; };
 		FE3731EB2518A49A00185235 /* EmitterLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3731EA2518A49A00185235 /* EmitterLayerViewController.swift */; };
 		FE734FD32518AFAC00DD3585 /* EAGLLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE734FD22518AFAC00DD3585 /* EAGLLayerViewController.swift */; };
 		FE78DF762514629E0079CD29 /* LayerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE78DF752514629E0079CD29 /* LayerLabel.swift */; };
@@ -89,6 +90,7 @@
 		FE0D0BEB2519CE380074A269 /* ImplicitAnimationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimationTableViewController.swift; sourceTree = "<group>"; };
 		FE0D0BEF2519CE8A0074A269 /* TransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
 		FE0D0BF22519D9D10074A269 /* CompleteBlockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteBlockViewController.swift; sourceTree = "<group>"; };
+		FE0D0BF52519DB8A0074A269 /* LayerBehaviorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerBehaviorViewController.swift; sourceTree = "<group>"; };
 		FE3731EA2518A49A00185235 /* EmitterLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmitterLayerViewController.swift; sourceTree = "<group>"; };
 		FE734FD22518AFAC00DD3585 /* EAGLLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EAGLLayerViewController.swift; sourceTree = "<group>"; };
 		FE78DF752514629E0079CD29 /* LayerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerLabel.swift; sourceTree = "<group>"; };
@@ -238,6 +240,7 @@
 				FE0D0BEB2519CE380074A269 /* ImplicitAnimationTableViewController.swift */,
 				FE0D0BEF2519CE8A0074A269 /* TransactionViewController.swift */,
 				FE0D0BF22519D9D10074A269 /* CompleteBlockViewController.swift */,
+				FE0D0BF52519DB8A0074A269 /* LayerBehaviorViewController.swift */,
 			);
 			path = "隐式动画";
 			sourceTree = "<group>";
@@ -371,6 +374,7 @@
 				FE0D0BF32519D9D10074A269 /* CompleteBlockViewController.swift in Sources */,
 				1713BB6B2511FEA30029F70C /* Config.swift in Sources */,
 				17BAFE12251063C6001A4C85 /* AppDelegate.swift in Sources */,
+				FE0D0BF62519DB8A0074A269 /* LayerBehaviorViewController.swift in Sources */,
 				17BAFE442510CD2B001A4C85 /* GroupOfTransparentViewController.swift in Sources */,
 				FEC3235C2514891C0036846D /* GradientLayerViewCtrl.swift in Sources */,
 				17A259D52511FBC6007F0773 /* TransFormTableViewController.swift in Sources */,
