@@ -52,6 +52,7 @@
 		FE910FC4251874A9008538E5 /* TiledLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE910FC3251874A9008538E5 /* TiledLayerViewController.swift */; };
 		FEC32359251487FA0036846D /* TransformLayerViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC32358251487FA0036846D /* TransformLayerViewCtrl.swift */; };
 		FEC3235C2514891C0036846D /* GradientLayerViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3235B2514891C0036846D /* GradientLayerViewCtrl.swift */; };
+		FEC5AF8A251AEB1E002E9766 /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC5AF89251AEB1E002E9766 /* TransitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +107,7 @@
 		FE910FC3251874A9008538E5 /* TiledLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiledLayerViewController.swift; sourceTree = "<group>"; };
 		FEC32358251487FA0036846D /* TransformLayerViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformLayerViewCtrl.swift; sourceTree = "<group>"; };
 		FEC3235B2514891C0036846D /* GradientLayerViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLayerViewCtrl.swift; sourceTree = "<group>"; };
+		FEC5AF89251AEB1E002E9766 /* TransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +263,7 @@
 				FE17D3FF2519E60A007F5E7A /* ExplicitAnimationTableViewController.swift */,
 				FE17D4032519E635007F5E7A /* AttributeAnimationViewController.swift */,
 				FE17D41E251A0320007F5E7A /* AnimationGroupViewController.swift */,
+				FEC5AF89251AEB1E002E9766 /* TransitionViewController.swift */,
 			);
 			path = "显式动画";
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 				FEC32359251487FA0036846D /* TransformLayerViewCtrl.swift in Sources */,
 				FE0D0BF02519CE8A0074A269 /* TransactionViewController.swift in Sources */,
 				FE17D41F251A0320007F5E7A /* AnimationGroupViewController.swift in Sources */,
+				FEC5AF8A251AEB1E002E9766 /* TransitionViewController.swift in Sources */,
 				1713BB672511FDBB0029F70C /* SpecialLayerTableViewController.swift in Sources */,
 				17BAFE3625109FB1001A4C85 /* Func.swift in Sources */,
 				FE910FC025186D60008538E5 /* ScrollLayerViewController.swift in Sources */,

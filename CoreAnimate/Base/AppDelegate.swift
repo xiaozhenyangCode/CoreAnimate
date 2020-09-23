@@ -9,13 +9,28 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UITabBarControllerDelegate {
     var window: UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
-        window?.rootViewController = UINavigationController(rootViewController: BaseTableViewController())
+        let ctrl1 = UINavigationController(rootViewController: BaseTableViewController())
+        ctrl1.tabBarItem.title = "Home"
+        ctrl1.tabBarItem.image = UIImage(named: "home")?.withRenderingMode(.alwaysOriginal)
+        let ctrl2 = UINavigationController(rootViewController: BaseTableViewController())
+        ctrl2.tabBarItem.title = "Mine"
+        ctrl2.tabBarItem.image = UIImage(named: "mine")?.withRenderingMode(.alwaysOriginal)
+        let tabbBarCtrl = UITabBarController()
+        tabbBarCtrl.delegate = self
+        tabbBarCtrl.viewControllers = [ctrl1, ctrl2]
+        window?.rootViewController = tabbBarCtrl
         return true
+    }
+
+    func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
+        let transition = CATransition()
+        transition.type = .fade
+        tabBarController.view.layer.add(transition, forKey: nil)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

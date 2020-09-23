@@ -33,6 +33,7 @@ class BaseTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let ctrl = classTableFromString(classNames[indexPath.row]) else { return }
+        ctrl.hidesBottomBarWhenPushed = true
         navigationController?.pushViewController(ctrl, animated: true)
     }
 }
