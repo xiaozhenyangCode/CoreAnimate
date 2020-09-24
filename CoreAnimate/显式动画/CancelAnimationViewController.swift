@@ -38,7 +38,6 @@ class CancelAnimationViewController: BaseViewController, CAAnimationDelegate {
         containerView.center = view.center
         view.addSubview(containerView)
 
-        appleLayer = CALayer()
         appleLayer.frame = CGRect(x: 0, y: 0, width: 128, height: 128)
         appleLayer.position = CGPoint(x: 100, y: 150)
         appleLayer.contents = UIImage(named: "zero")?.cgImage

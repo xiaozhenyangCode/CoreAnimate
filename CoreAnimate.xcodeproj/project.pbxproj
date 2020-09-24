@@ -54,6 +54,8 @@
 		FEC3235C2514891C0036846D /* GradientLayerViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3235B2514891C0036846D /* GradientLayerViewCtrl.swift */; };
 		FEC5AF8A251AEB1E002E9766 /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC5AF89251AEB1E002E9766 /* TransitionViewController.swift */; };
 		FEE52973251C38BA002A3C7E /* CancelAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE52972251C38BA002A3C7E /* CancelAnimationViewController.swift */; };
+		FEE52977251C3EF1002A3C7E /* LayerTimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE52976251C3EF1002A3C7E /* LayerTimeTableViewController.swift */; };
+		FEE5297B251C3F3C002A3C7E /* CAMediaTimingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE5297A251C3F3C002A3C7E /* CAMediaTimingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -110,6 +112,8 @@
 		FEC3235B2514891C0036846D /* GradientLayerViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLayerViewCtrl.swift; sourceTree = "<group>"; };
 		FEC5AF89251AEB1E002E9766 /* TransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionViewController.swift; sourceTree = "<group>"; };
 		FEE52972251C38BA002A3C7E /* CancelAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelAnimationViewController.swift; sourceTree = "<group>"; };
+		FEE52976251C3EF1002A3C7E /* LayerTimeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerTimeTableViewController.swift; sourceTree = "<group>"; };
+		FEE5297A251C3F3C002A3C7E /* CAMediaTimingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAMediaTimingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +174,7 @@
 				17A259D62511FD75007F0773 /* 专用图层 */,
 				FE0D0BEA2519CDE60074A269 /* 隐式动画 */,
 				FE17D3FE2519E508007F5E7A /* 显式动画 */,
+				FEE52975251C3ED6002A3C7E /* 图层时间 */,
 				17BAFE0F251063C6001A4C85 /* Products */,
 			);
 			path = CoreAnimate;
@@ -269,6 +274,15 @@
 				FEE52972251C38BA002A3C7E /* CancelAnimationViewController.swift */,
 			);
 			path = "显式动画";
+			sourceTree = "<group>";
+		};
+		FEE52975251C3ED6002A3C7E /* 图层时间 */ = {
+			isa = PBXGroup;
+			children = (
+				FEE52976251C3EF1002A3C7E /* LayerTimeTableViewController.swift */,
+				FEE5297A251C3F3C002A3C7E /* CAMediaTimingViewController.swift */,
+			);
+			path = "图层时间";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -412,12 +426,14 @@
 				1713BB672511FDBB0029F70C /* SpecialLayerTableViewController.swift in Sources */,
 				17BAFE3625109FB1001A4C85 /* Func.swift in Sources */,
 				FE910FC025186D60008538E5 /* ScrollLayerViewController.swift in Sources */,
+				FEE52977251C3EF1002A3C7E /* LayerTimeTableViewController.swift in Sources */,
 				17BAFE382510A158001A4C85 /* Proxy.swift in Sources */,
 				17BAFE422510BE18001A4C85 /* TensilefilterViewController.swift in Sources */,
 				17BAFE3A2510A1CB001A4C85 /* LayerFrameViewController.swift in Sources */,
 				17BAFE3C2510A496001A4C85 /* ShadowViewController.swift in Sources */,
 				17A259CD2511C0AA007F0773 /* Transform3DViewController.swift in Sources */,
 				17BAFE402510B90F001A4C85 /* LayermaskViewController.swift in Sources */,
+				FEE5297B251C3F3C002A3C7E /* CAMediaTimingViewController.swift in Sources */,
 				FE734FD32518AFAC00DD3585 /* EAGLLayerViewController.swift in Sources */,
 				FE17D4042519E635007F5E7A /* AttributeAnimationViewController.swift in Sources */,
 				FE0D0BF92519DF3B0074A269 /* PresentationModelViewController.swift in Sources */,
