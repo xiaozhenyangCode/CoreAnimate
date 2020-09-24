@@ -53,6 +53,7 @@
 		FEC32359251487FA0036846D /* TransformLayerViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC32358251487FA0036846D /* TransformLayerViewCtrl.swift */; };
 		FEC3235C2514891C0036846D /* GradientLayerViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3235B2514891C0036846D /* GradientLayerViewCtrl.swift */; };
 		FEC5AF8A251AEB1E002E9766 /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC5AF89251AEB1E002E9766 /* TransitionViewController.swift */; };
+		FEE52973251C38BA002A3C7E /* CancelAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE52972251C38BA002A3C7E /* CancelAnimationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +109,7 @@
 		FEC32358251487FA0036846D /* TransformLayerViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformLayerViewCtrl.swift; sourceTree = "<group>"; };
 		FEC3235B2514891C0036846D /* GradientLayerViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLayerViewCtrl.swift; sourceTree = "<group>"; };
 		FEC5AF89251AEB1E002E9766 /* TransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionViewController.swift; sourceTree = "<group>"; };
+		FEE52972251C38BA002A3C7E /* CancelAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelAnimationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +266,7 @@
 				FE17D4032519E635007F5E7A /* AttributeAnimationViewController.swift */,
 				FE17D41E251A0320007F5E7A /* AnimationGroupViewController.swift */,
 				FEC5AF89251AEB1E002E9766 /* TransitionViewController.swift */,
+				FEE52972251C38BA002A3C7E /* CancelAnimationViewController.swift */,
 			);
 			path = "显式动画";
 			sourceTree = "<group>";
@@ -391,6 +394,7 @@
 				FE78DF762514629E0079CD29 /* LayerLabel.swift in Sources */,
 				17BAFE3E2510B746001A4C85 /* ShadowPathViewController.swift in Sources */,
 				4BAF7C4B2515DA530013DDEF /* ReplicatorLayerViewController.swift in Sources */,
+				FEE52973251C38BA002A3C7E /* CancelAnimationViewController.swift in Sources */,
 				17A259D32511FB36007F0773 /* BaseTableViewController.swift in Sources */,
 				FE0D0BDD2519AB6A0074A269 /* AVPlayerLayerViewController.swift in Sources */,
 				17BAFE2A251092E9001A4C85 /* TimerViewController.swift in Sources */,
