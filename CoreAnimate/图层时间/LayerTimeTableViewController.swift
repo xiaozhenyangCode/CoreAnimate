@@ -11,9 +11,9 @@ import UIKit
 class LayerTimeTableViewController: BaseTableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        textLabelString = ["CAMediaTiming协议"]
+        textLabelString = ["CAMediaTiming协议", "层级关系时间"]
 
-        classNames = ["CAMediaTimingViewController"]
+        classNames = ["CAMediaTimingViewController", "HierarchicalTimeViewController"]
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

@@ -35,6 +35,7 @@
 		17BAFE442510CD2B001A4C85 /* GroupOfTransparentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BAFE432510CD2B001A4C85 /* GroupOfTransparentViewController.swift */; };
 		17DF6A092511BAAD00362FD8 /* TransformViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF6A082511BAAD00362FD8 /* TransformViewController.swift */; };
 		4BAF7C4B2515DA530013DDEF /* ReplicatorLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAF7C4A2515DA530013DDEF /* ReplicatorLayerViewController.swift */; };
+		FE0C40AA251E026F001F7E51 /* HierarchicalTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0C40A9251E026F001F7E51 /* HierarchicalTimeViewController.swift */; };
 		FE0D0BDD2519AB6A0074A269 /* AVPlayerLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D0BDC2519AB6A0074A269 /* AVPlayerLayerViewController.swift */; };
 		FE0D0BE82519CAA80074A269 /* 1111.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = FE0D0BE72519CAA80074A269 /* 1111.MP4 */; };
 		FE0D0BEC2519CE380074A269 /* ImplicitAnimationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D0BEB2519CE380074A269 /* ImplicitAnimationTableViewController.swift */; };
@@ -92,6 +93,7 @@
 		490A498E85A8309E271B89EB /* Pods_CoreAnimate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreAnimate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B69C3A1401F9FE0B4A1A347 /* Pods-CoreAnimate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreAnimate.release.xcconfig"; path = "Target Support Files/Pods-CoreAnimate/Pods-CoreAnimate.release.xcconfig"; sourceTree = "<group>"; };
 		4BAF7C4A2515DA530013DDEF /* ReplicatorLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplicatorLayerViewController.swift; sourceTree = "<group>"; };
+		FE0C40A9251E026F001F7E51 /* HierarchicalTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HierarchicalTimeViewController.swift; sourceTree = "<group>"; };
 		FE0D0BDC2519AB6A0074A269 /* AVPlayerLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerLayerViewController.swift; sourceTree = "<group>"; };
 		FE0D0BDF2519ABF40074A269 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		FE0D0BE72519CAA80074A269 /* 1111.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1111.MP4; sourceTree = "<group>"; };
@@ -281,6 +283,7 @@
 			children = (
 				FEE52976251C3EF1002A3C7E /* LayerTimeTableViewController.swift */,
 				FEE5297A251C3F3C002A3C7E /* CAMediaTimingViewController.swift */,
+				FE0C40A9251E026F001F7E51 /* HierarchicalTimeViewController.swift */,
 			);
 			path = "图层时间";
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 				17BAFE3A2510A1CB001A4C85 /* LayerFrameViewController.swift in Sources */,
 				17BAFE3C2510A496001A4C85 /* ShadowViewController.swift in Sources */,
 				17A259CD2511C0AA007F0773 /* Transform3DViewController.swift in Sources */,
+				FE0C40AA251E026F001F7E51 /* HierarchicalTimeViewController.swift in Sources */,
 				17BAFE402510B90F001A4C85 /* LayermaskViewController.swift in Sources */,
 				FEE5297B251C3F3C002A3C7E /* CAMediaTimingViewController.swift in Sources */,
 				FE734FD32518AFAC00DD3585 /* EAGLLayerViewController.swift in Sources */,
