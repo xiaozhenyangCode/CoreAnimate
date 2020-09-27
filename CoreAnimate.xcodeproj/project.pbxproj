@@ -47,6 +47,7 @@
 		FE17D4042519E635007F5E7A /* AttributeAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE17D4032519E635007F5E7A /* AttributeAnimationViewController.swift */; };
 		FE17D41F251A0320007F5E7A /* AnimationGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE17D41E251A0320007F5E7A /* AnimationGroupViewController.swift */; };
 		FE3731EB2518A49A00185235 /* EmitterLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3731EA2518A49A00185235 /* EmitterLayerViewController.swift */; };
+		FE4A91C5252035E2009B0991 /* ManualAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4A91C4252035E2009B0991 /* ManualAnimationViewController.swift */; };
 		FE734FD32518AFAC00DD3585 /* EAGLLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE734FD22518AFAC00DD3585 /* EAGLLayerViewController.swift */; };
 		FE78DF762514629E0079CD29 /* LayerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE78DF752514629E0079CD29 /* LayerLabel.swift */; };
 		FE910FC025186D60008538E5 /* ScrollLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE910FBF25186D60008538E5 /* ScrollLayerViewController.swift */; };
@@ -106,6 +107,7 @@
 		FE17D4032519E635007F5E7A /* AttributeAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeAnimationViewController.swift; sourceTree = "<group>"; };
 		FE17D41E251A0320007F5E7A /* AnimationGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationGroupViewController.swift; sourceTree = "<group>"; };
 		FE3731EA2518A49A00185235 /* EmitterLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmitterLayerViewController.swift; sourceTree = "<group>"; };
+		FE4A91C4252035E2009B0991 /* ManualAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualAnimationViewController.swift; sourceTree = "<group>"; };
 		FE734FD22518AFAC00DD3585 /* EAGLLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EAGLLayerViewController.swift; sourceTree = "<group>"; };
 		FE78DF752514629E0079CD29 /* LayerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerLabel.swift; sourceTree = "<group>"; };
 		FE910FBF25186D60008538E5 /* ScrollLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollLayerViewController.swift; sourceTree = "<group>"; };
@@ -284,6 +286,7 @@
 				FEE52976251C3EF1002A3C7E /* LayerTimeTableViewController.swift */,
 				FEE5297A251C3F3C002A3C7E /* CAMediaTimingViewController.swift */,
 				FE0C40A9251E026F001F7E51 /* HierarchicalTimeViewController.swift */,
+				FE4A91C4252035E2009B0991 /* ManualAnimationViewController.swift */,
 			);
 			path = "图层时间";
 			sourceTree = "<group>";
@@ -445,6 +448,7 @@
 				FE910FC4251874A9008538E5 /* TiledLayerViewController.swift in Sources */,
 				FE17D4002519E60A007F5E7A /* ExplicitAnimationTableViewController.swift in Sources */,
 				17A259D12511E214007F0773 /* SolidObjectViewController.swift in Sources */,
+				FE4A91C5252035E2009B0991 /* ManualAnimationViewController.swift in Sources */,
 				17BAFE2825107283001A4C85 /* CoreAnimateTableViewController.swift in Sources */,
 				FE0D0BEC2519CE380074A269 /* ImplicitAnimationTableViewController.swift in Sources */,
 				17DF6A092511BAAD00362FD8 /* TransformViewController.swift in Sources */,
