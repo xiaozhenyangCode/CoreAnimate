@@ -47,9 +47,11 @@
 		FE17D4042519E635007F5E7A /* AttributeAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE17D4032519E635007F5E7A /* AttributeAnimationViewController.swift */; };
 		FE17D41F251A0320007F5E7A /* AnimationGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE17D41E251A0320007F5E7A /* AnimationGroupViewController.swift */; };
 		FE3731EB2518A49A00185235 /* EmitterLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3731EA2518A49A00185235 /* EmitterLayerViewController.swift */; };
+		FE44E8052520685200DD7E44 /* BufferKeyFramesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44E8042520685200DD7E44 /* BufferKeyFramesViewController.swift */; };
 		FE4A91C5252035E2009B0991 /* ManualAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4A91C4252035E2009B0991 /* ManualAnimationViewController.swift */; };
 		FE4A91C925203B42009B0991 /* BufferBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4A91C825203B42009B0991 /* BufferBaseTableViewController.swift */; };
 		FE4A91CD25203B70009B0991 /* SpeedAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4A91CC25203B70009B0991 /* SpeedAnimationViewController.swift */; };
+		FE4A91D0252042D9009B0991 /* CustomBufferFunctionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4A91CF252042D9009B0991 /* CustomBufferFunctionsViewController.swift */; };
 		FE734FD32518AFAC00DD3585 /* EAGLLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE734FD22518AFAC00DD3585 /* EAGLLayerViewController.swift */; };
 		FE78DF762514629E0079CD29 /* LayerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE78DF752514629E0079CD29 /* LayerLabel.swift */; };
 		FE910FC025186D60008538E5 /* ScrollLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE910FBF25186D60008538E5 /* ScrollLayerViewController.swift */; };
@@ -109,9 +111,11 @@
 		FE17D4032519E635007F5E7A /* AttributeAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeAnimationViewController.swift; sourceTree = "<group>"; };
 		FE17D41E251A0320007F5E7A /* AnimationGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationGroupViewController.swift; sourceTree = "<group>"; };
 		FE3731EA2518A49A00185235 /* EmitterLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmitterLayerViewController.swift; sourceTree = "<group>"; };
+		FE44E8042520685200DD7E44 /* BufferKeyFramesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferKeyFramesViewController.swift; sourceTree = "<group>"; };
 		FE4A91C4252035E2009B0991 /* ManualAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualAnimationViewController.swift; sourceTree = "<group>"; };
 		FE4A91C825203B42009B0991 /* BufferBaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferBaseTableViewController.swift; sourceTree = "<group>"; };
 		FE4A91CC25203B70009B0991 /* SpeedAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedAnimationViewController.swift; sourceTree = "<group>"; };
+		FE4A91CF252042D9009B0991 /* CustomBufferFunctionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBufferFunctionsViewController.swift; sourceTree = "<group>"; };
 		FE734FD22518AFAC00DD3585 /* EAGLLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EAGLLayerViewController.swift; sourceTree = "<group>"; };
 		FE78DF752514629E0079CD29 /* LayerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerLabel.swift; sourceTree = "<group>"; };
 		FE910FBF25186D60008538E5 /* ScrollLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollLayerViewController.swift; sourceTree = "<group>"; };
@@ -290,6 +294,8 @@
 			children = (
 				FE4A91C825203B42009B0991 /* BufferBaseTableViewController.swift */,
 				FE4A91CC25203B70009B0991 /* SpeedAnimationViewController.swift */,
+				FE4A91CF252042D9009B0991 /* CustomBufferFunctionsViewController.swift */,
+				FE44E8042520685200DD7E44 /* BufferKeyFramesViewController.swift */,
 			);
 			path = "缓冲";
 			sourceTree = "<group>";
@@ -437,9 +443,11 @@
 				17BAFE12251063C6001A4C85 /* AppDelegate.swift in Sources */,
 				FE0D0BF62519DB8A0074A269 /* LayerBehaviorViewController.swift in Sources */,
 				17BAFE442510CD2B001A4C85 /* GroupOfTransparentViewController.swift in Sources */,
+				FE4A91D0252042D9009B0991 /* CustomBufferFunctionsViewController.swift in Sources */,
 				FEC3235C2514891C0036846D /* GradientLayerViewCtrl.swift in Sources */,
 				17A259D52511FBC6007F0773 /* TransFormTableViewController.swift in Sources */,
 				FEC32359251487FA0036846D /* TransformLayerViewCtrl.swift in Sources */,
+				FE44E8052520685200DD7E44 /* BufferKeyFramesViewController.swift in Sources */,
 				FE0D0BF02519CE8A0074A269 /* TransactionViewController.swift in Sources */,
 				FE17D41F251A0320007F5E7A /* AnimationGroupViewController.swift in Sources */,
 				FEC5AF8A251AEB1E002E9766 /* TransitionViewController.swift in Sources */,

@@ -166,7 +166,7 @@ class AttributeAnimationViewController: BaseViewController, CAAnimationDelegate 
         if animated {
             let animation = CABasicAnimation()
             updateHandsAnimated(false)
-            animation.keyPath = "backgroundColor"
+            animation.keyPath = "transform"
             animation.delegate = self
             animation.toValue = NSValue(caTransform3D: transform)
             animation.duration = 0.5

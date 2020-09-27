@@ -11,9 +11,9 @@ import UIKit
 class BufferBaseTableViewController: BaseTableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        textLabelString = ["动画速度"]
+        textLabelString = ["动画速度", "自定义缓冲函数", "关键帧的缓冲"]
 
-        classNames = ["SpeedAnimationViewController"]
+        classNames = ["SpeedAnimationViewController", "CustomBufferFunctionsViewController", "BufferKeyFramesViewController"]
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
