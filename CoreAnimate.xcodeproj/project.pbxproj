@@ -48,6 +48,8 @@
 		FE17D41F251A0320007F5E7A /* AnimationGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE17D41E251A0320007F5E7A /* AnimationGroupViewController.swift */; };
 		FE3731EB2518A49A00185235 /* EmitterLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3731EA2518A49A00185235 /* EmitterLayerViewController.swift */; };
 		FE4A91C5252035E2009B0991 /* ManualAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4A91C4252035E2009B0991 /* ManualAnimationViewController.swift */; };
+		FE4A91C925203B42009B0991 /* BufferBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4A91C825203B42009B0991 /* BufferBaseTableViewController.swift */; };
+		FE4A91CD25203B70009B0991 /* SpeedAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4A91CC25203B70009B0991 /* SpeedAnimationViewController.swift */; };
 		FE734FD32518AFAC00DD3585 /* EAGLLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE734FD22518AFAC00DD3585 /* EAGLLayerViewController.swift */; };
 		FE78DF762514629E0079CD29 /* LayerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE78DF752514629E0079CD29 /* LayerLabel.swift */; };
 		FE910FC025186D60008538E5 /* ScrollLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE910FBF25186D60008538E5 /* ScrollLayerViewController.swift */; };
@@ -108,6 +110,8 @@
 		FE17D41E251A0320007F5E7A /* AnimationGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationGroupViewController.swift; sourceTree = "<group>"; };
 		FE3731EA2518A49A00185235 /* EmitterLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmitterLayerViewController.swift; sourceTree = "<group>"; };
 		FE4A91C4252035E2009B0991 /* ManualAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualAnimationViewController.swift; sourceTree = "<group>"; };
+		FE4A91C825203B42009B0991 /* BufferBaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferBaseTableViewController.swift; sourceTree = "<group>"; };
+		FE4A91CC25203B70009B0991 /* SpeedAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedAnimationViewController.swift; sourceTree = "<group>"; };
 		FE734FD22518AFAC00DD3585 /* EAGLLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EAGLLayerViewController.swift; sourceTree = "<group>"; };
 		FE78DF752514629E0079CD29 /* LayerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerLabel.swift; sourceTree = "<group>"; };
 		FE910FBF25186D60008538E5 /* ScrollLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollLayerViewController.swift; sourceTree = "<group>"; };
@@ -179,6 +183,7 @@
 				FE0D0BEA2519CDE60074A269 /* 隐式动画 */,
 				FE17D3FE2519E508007F5E7A /* 显式动画 */,
 				FEE52975251C3ED6002A3C7E /* 图层时间 */,
+				FE4A91C725203B23009B0991 /* 缓冲 */,
 				17BAFE0F251063C6001A4C85 /* Products */,
 			);
 			path = CoreAnimate;
@@ -278,6 +283,15 @@
 				FEE52972251C38BA002A3C7E /* CancelAnimationViewController.swift */,
 			);
 			path = "显式动画";
+			sourceTree = "<group>";
+		};
+		FE4A91C725203B23009B0991 /* 缓冲 */ = {
+			isa = PBXGroup;
+			children = (
+				FE4A91C825203B42009B0991 /* BufferBaseTableViewController.swift */,
+				FE4A91CC25203B70009B0991 /* SpeedAnimationViewController.swift */,
+			);
+			path = "缓冲";
 			sourceTree = "<group>";
 		};
 		FEE52975251C3ED6002A3C7E /* 图层时间 */ = {
@@ -434,11 +448,13 @@
 				FE910FC025186D60008538E5 /* ScrollLayerViewController.swift in Sources */,
 				FEE52977251C3EF1002A3C7E /* LayerTimeTableViewController.swift in Sources */,
 				17BAFE382510A158001A4C85 /* Proxy.swift in Sources */,
+				FE4A91C925203B42009B0991 /* BufferBaseTableViewController.swift in Sources */,
 				17BAFE422510BE18001A4C85 /* TensilefilterViewController.swift in Sources */,
 				17BAFE3A2510A1CB001A4C85 /* LayerFrameViewController.swift in Sources */,
 				17BAFE3C2510A496001A4C85 /* ShadowViewController.swift in Sources */,
 				17A259CD2511C0AA007F0773 /* Transform3DViewController.swift in Sources */,
 				FE0C40AA251E026F001F7E51 /* HierarchicalTimeViewController.swift in Sources */,
+				FE4A91CD25203B70009B0991 /* SpeedAnimationViewController.swift in Sources */,
 				17BAFE402510B90F001A4C85 /* LayermaskViewController.swift in Sources */,
 				FEE5297B251C3F3C002A3C7E /* CAMediaTimingViewController.swift in Sources */,
 				FE734FD32518AFAC00DD3585 /* EAGLLayerViewController.swift in Sources */,
