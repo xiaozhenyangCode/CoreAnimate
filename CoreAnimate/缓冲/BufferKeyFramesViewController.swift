@@ -47,24 +47,24 @@ class BufferKeyFramesViewController: BaseViewController, CAAnimationDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor(red: 191 / 256, green: 191 / 256, blue: 191 / 256, alpha: 1.0)
-
-        containerView = UIView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.width))
-        containerView.center = view.center
-        containerView.backgroundColor = .white
-        view.addSubview(containerView)
+//        view.backgroundColor = UIColor(red: 191 / 256, green: 191 / 256, blue: 191 / 256, alpha: 1.0)
+//
+//        containerView = UIView(frame: CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.width))
+//        containerView.center = view.center
+//        containerView.backgroundColor = .white
+//        view.addSubview(containerView)
 
         ballImageView = UIImageView(image: UIImage(named: "ball"))
-        ballImageView.center = CGPoint(x: view.center.x, y: 70)
-        containerView.addSubview(ballImageView)
+        ballImageView.center = CGPoint(x: view.center.x, y: 170)
+        view.addSubview(ballImageView)
     }
 
     func animate() {
         var frames = [NSValue]()
-        ballImageView.center = CGPoint(x: view.center.x, y: 70)
+        ballImageView.center = CGPoint(x: view.center.x, y: 170)
 
-        let fromValue = NSValue(cgPoint: CGPoint(x: view.center.x, y: 70))
-        let toValue = NSValue(cgPoint: CGPoint(x: view.center.x, y: 268))
+        let fromValue = NSValue(cgPoint: CGPoint(x: view.center.x, y: 170))
+        let toValue = NSValue(cgPoint: CGPoint(x: view.center.x, y: view.frame.maxY - 50))
         let duration = 1
         let numFrames = duration * 60
         for index in 0 ... numFrames {
