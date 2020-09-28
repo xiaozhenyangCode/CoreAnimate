@@ -57,6 +57,8 @@
 		FE7B3A342521961D00F002BA /* AnimationTimerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B3A332521961D00F002BA /* AnimationTimerTableViewController.swift */; };
 		FE7B3A382521964500F002BA /* TimeFrameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B3A372521964500F002BA /* TimeFrameViewController.swift */; };
 		FE7B3A3B2521B71600F002BA /* PhysicalSimulationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B3A3A2521B71600F002BA /* PhysicalSimulationViewController.swift */; };
+		FE7B3A732521D6BD00F002BA /* PerformanceTuningTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B3A722521D6BD00F002BA /* PerformanceTuningTableViewController.swift */; };
+		FE7B3A772521D6E800F002BA /* CPUVSGPUViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B3A762521D6E800F002BA /* CPUVSGPUViewController.swift */; };
 		FE910FC025186D60008538E5 /* ScrollLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE910FBF25186D60008538E5 /* ScrollLayerViewController.swift */; };
 		FE910FC4251874A9008538E5 /* TiledLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE910FC3251874A9008538E5 /* TiledLayerViewController.swift */; };
 		FEC32359251487FA0036846D /* TransformLayerViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC32358251487FA0036846D /* TransformLayerViewCtrl.swift */; };
@@ -124,6 +126,8 @@
 		FE7B3A332521961D00F002BA /* AnimationTimerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimerTableViewController.swift; sourceTree = "<group>"; };
 		FE7B3A372521964500F002BA /* TimeFrameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFrameViewController.swift; sourceTree = "<group>"; };
 		FE7B3A3A2521B71600F002BA /* PhysicalSimulationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicalSimulationViewController.swift; sourceTree = "<group>"; };
+		FE7B3A722521D6BD00F002BA /* PerformanceTuningTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceTuningTableViewController.swift; sourceTree = "<group>"; };
+		FE7B3A762521D6E800F002BA /* CPUVSGPUViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPUVSGPUViewController.swift; sourceTree = "<group>"; };
 		FE910FBF25186D60008538E5 /* ScrollLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollLayerViewController.swift; sourceTree = "<group>"; };
 		FE910FC3251874A9008538E5 /* TiledLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiledLayerViewController.swift; sourceTree = "<group>"; };
 		FEC32358251487FA0036846D /* TransformLayerViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformLayerViewCtrl.swift; sourceTree = "<group>"; };
@@ -195,6 +199,7 @@
 				FEE52975251C3ED6002A3C7E /* 图层时间 */,
 				FE4A91C725203B23009B0991 /* 缓冲 */,
 				FE7B3A32252195E900F002BA /* 基于定时器的动画 */,
+				FE7B3A712521D68D00F002BA /* 性能调优 */,
 				17BAFE0F251063C6001A4C85 /* Products */,
 			);
 			path = CoreAnimate;
@@ -315,6 +320,15 @@
 				FE7B3A3A2521B71600F002BA /* PhysicalSimulationViewController.swift */,
 			);
 			path = "基于定时器的动画";
+			sourceTree = "<group>";
+		};
+		FE7B3A712521D68D00F002BA /* 性能调优 */ = {
+			isa = PBXGroup;
+			children = (
+				FE7B3A722521D6BD00F002BA /* PerformanceTuningTableViewController.swift */,
+				FE7B3A762521D6E800F002BA /* CPUVSGPUViewController.swift */,
+			);
+			path = "性能调优";
 			sourceTree = "<group>";
 		};
 		FEE52975251C3ED6002A3C7E /* 图层时间 */ = {
@@ -447,6 +461,7 @@
 			files = (
 				17BAFE2C251095A8001A4C85 /* BaseViewController.swift in Sources */,
 				1713BB692511FE3B0029F70C /* ShapeLayerViewController.swift in Sources */,
+				FE7B3A732521D6BD00F002BA /* PerformanceTuningTableViewController.swift in Sources */,
 				FE3731EB2518A49A00185235 /* EmitterLayerViewController.swift in Sources */,
 				FE78DF762514629E0079CD29 /* LayerLabel.swift in Sources */,
 				17BAFE3E2510B746001A4C85 /* ShadowPathViewController.swift in Sources */,
@@ -487,6 +502,7 @@
 				FE734FD32518AFAC00DD3585 /* EAGLLayerViewController.swift in Sources */,
 				FE17D4042519E635007F5E7A /* AttributeAnimationViewController.swift in Sources */,
 				FE0D0BF92519DF3B0074A269 /* PresentationModelViewController.swift in Sources */,
+				FE7B3A772521D6E800F002BA /* CPUVSGPUViewController.swift in Sources */,
 				17BAFE3425109F7A001A4C85 /* NSObject+Extension.swift in Sources */,
 				FE910FC4251874A9008538E5 /* TiledLayerViewController.swift in Sources */,
 				FE17D4002519E60A007F5E7A /* ExplicitAnimationTableViewController.swift in Sources */,

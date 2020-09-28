@@ -16,9 +16,11 @@ class BaseTableViewController: UITableViewController {
         super.viewDidLoad()
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "reuseIdentifier")
         textLabelString = ["视觉效果", "变换", "专用图层", "隐式动画",
-                           "显式动画", "图层时间", "缓冲", "基于定时器的动画"]
+                           "显式动画", "图层时间", "缓冲", "基于定时器的动画",
+                           "性能调优"]
         classNames = ["CoreAnimateTableViewController", "TransFormTableViewController", "SpecialLayerTableViewController", "ImplicitAnimationTableViewController"
-                      , "ExplicitAnimationTableViewController", "LayerTimeTableViewController", "BufferBaseTableViewController", "AnimationTimerTableViewController"]
+                      , "ExplicitAnimationTableViewController", "LayerTimeTableViewController", "BufferBaseTableViewController", "AnimationTimerTableViewController",
+                      "PerformanceTuningTableViewController"]
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
