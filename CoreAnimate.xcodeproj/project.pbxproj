@@ -54,6 +54,8 @@
 		FE4A91D0252042D9009B0991 /* CustomBufferFunctionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4A91CF252042D9009B0991 /* CustomBufferFunctionsViewController.swift */; };
 		FE734FD32518AFAC00DD3585 /* EAGLLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE734FD22518AFAC00DD3585 /* EAGLLayerViewController.swift */; };
 		FE78DF762514629E0079CD29 /* LayerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE78DF752514629E0079CD29 /* LayerLabel.swift */; };
+		FE7B3A342521961D00F002BA /* AnimationTimerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B3A332521961D00F002BA /* AnimationTimerTableViewController.swift */; };
+		FE7B3A382521964500F002BA /* TimeFrameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B3A372521964500F002BA /* TimeFrameViewController.swift */; };
 		FE910FC025186D60008538E5 /* ScrollLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE910FBF25186D60008538E5 /* ScrollLayerViewController.swift */; };
 		FE910FC4251874A9008538E5 /* TiledLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE910FC3251874A9008538E5 /* TiledLayerViewController.swift */; };
 		FEC32359251487FA0036846D /* TransformLayerViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC32358251487FA0036846D /* TransformLayerViewCtrl.swift */; };
@@ -118,6 +120,8 @@
 		FE4A91CF252042D9009B0991 /* CustomBufferFunctionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBufferFunctionsViewController.swift; sourceTree = "<group>"; };
 		FE734FD22518AFAC00DD3585 /* EAGLLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EAGLLayerViewController.swift; sourceTree = "<group>"; };
 		FE78DF752514629E0079CD29 /* LayerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerLabel.swift; sourceTree = "<group>"; };
+		FE7B3A332521961D00F002BA /* AnimationTimerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimerTableViewController.swift; sourceTree = "<group>"; };
+		FE7B3A372521964500F002BA /* TimeFrameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFrameViewController.swift; sourceTree = "<group>"; };
 		FE910FBF25186D60008538E5 /* ScrollLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollLayerViewController.swift; sourceTree = "<group>"; };
 		FE910FC3251874A9008538E5 /* TiledLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiledLayerViewController.swift; sourceTree = "<group>"; };
 		FEC32358251487FA0036846D /* TransformLayerViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformLayerViewCtrl.swift; sourceTree = "<group>"; };
@@ -188,6 +192,7 @@
 				FE17D3FE2519E508007F5E7A /* 显式动画 */,
 				FEE52975251C3ED6002A3C7E /* 图层时间 */,
 				FE4A91C725203B23009B0991 /* 缓冲 */,
+				FE7B3A32252195E900F002BA /* 基于定时器的动画 */,
 				17BAFE0F251063C6001A4C85 /* Products */,
 			);
 			path = CoreAnimate;
@@ -298,6 +303,15 @@
 				FE44E8042520685200DD7E44 /* BufferKeyFramesViewController.swift */,
 			);
 			path = "缓冲";
+			sourceTree = "<group>";
+		};
+		FE7B3A32252195E900F002BA /* 基于定时器的动画 */ = {
+			isa = PBXGroup;
+			children = (
+				FE7B3A332521961D00F002BA /* AnimationTimerTableViewController.swift */,
+				FE7B3A372521964500F002BA /* TimeFrameViewController.swift */,
+			);
+			path = "基于定时器的动画";
 			sourceTree = "<group>";
 		};
 		FEE52975251C3ED6002A3C7E /* 图层时间 */ = {
@@ -434,6 +448,7 @@
 				FE78DF762514629E0079CD29 /* LayerLabel.swift in Sources */,
 				17BAFE3E2510B746001A4C85 /* ShadowPathViewController.swift in Sources */,
 				4BAF7C4B2515DA530013DDEF /* ReplicatorLayerViewController.swift in Sources */,
+				FE7B3A342521961D00F002BA /* AnimationTimerTableViewController.swift in Sources */,
 				FEE52973251C38BA002A3C7E /* CancelAnimationViewController.swift in Sources */,
 				17A259D32511FB36007F0773 /* BaseTableViewController.swift in Sources */,
 				FE0D0BDD2519AB6A0074A269 /* AVPlayerLayerViewController.swift in Sources */,
@@ -475,6 +490,7 @@
 				FE4A91C5252035E2009B0991 /* ManualAnimationViewController.swift in Sources */,
 				17BAFE2825107283001A4C85 /* CoreAnimateTableViewController.swift in Sources */,
 				FE0D0BEC2519CE380074A269 /* ImplicitAnimationTableViewController.swift in Sources */,
+				FE7B3A382521964500F002BA /* TimeFrameViewController.swift in Sources */,
 				17DF6A092511BAAD00362FD8 /* TransformViewController.swift in Sources */,
 				1713BB6D2512186C0029F70C /* TextLayerViewController.swift in Sources */,
 				17BAFE3225109D19001A4C85 /* CornerRadiusViewController.swift in Sources */,
