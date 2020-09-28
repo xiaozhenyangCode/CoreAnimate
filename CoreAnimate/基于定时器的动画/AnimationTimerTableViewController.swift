@@ -11,9 +11,9 @@ import UIKit
 class AnimationTimerTableViewController: BaseTableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        textLabelString = ["定时帧"]
+        textLabelString = ["定时帧", "物理模拟"]
 
-        classNames = ["TimeFrameViewController"]
+        classNames = ["TimeFrameViewController", "PhysicalSimulationViewController"]
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
