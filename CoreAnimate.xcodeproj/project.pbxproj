@@ -46,6 +46,8 @@
 		FE17D4002519E60A007F5E7A /* ExplicitAnimationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE17D3FF2519E60A007F5E7A /* ExplicitAnimationTableViewController.swift */; };
 		FE17D4042519E635007F5E7A /* AttributeAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE17D4032519E635007F5E7A /* AttributeAnimationViewController.swift */; };
 		FE17D41F251A0320007F5E7A /* AnimationGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE17D41E251A0320007F5E7A /* AnimationGroupViewController.swift */; };
+		FE24E7D22522E26B00B38BD8 /* MeasurementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE24E7D12522E26B00B38BD8 /* MeasurementViewController.swift */; };
+		FE24E7D82522E3E700B38BD8 /* InstrumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE24E7D72522E3E700B38BD8 /* InstrumentsViewController.swift */; };
 		FE3731EB2518A49A00185235 /* EmitterLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3731EA2518A49A00185235 /* EmitterLayerViewController.swift */; };
 		FE44E8052520685200DD7E44 /* BufferKeyFramesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE44E8042520685200DD7E44 /* BufferKeyFramesViewController.swift */; };
 		FE4A91C5252035E2009B0991 /* ManualAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4A91C4252035E2009B0991 /* ManualAnimationViewController.swift */; };
@@ -115,6 +117,8 @@
 		FE17D3FF2519E60A007F5E7A /* ExplicitAnimationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimationTableViewController.swift; sourceTree = "<group>"; };
 		FE17D4032519E635007F5E7A /* AttributeAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributeAnimationViewController.swift; sourceTree = "<group>"; };
 		FE17D41E251A0320007F5E7A /* AnimationGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationGroupViewController.swift; sourceTree = "<group>"; };
+		FE24E7D12522E26B00B38BD8 /* MeasurementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementViewController.swift; sourceTree = "<group>"; };
+		FE24E7D72522E3E700B38BD8 /* InstrumentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentsViewController.swift; sourceTree = "<group>"; };
 		FE3731EA2518A49A00185235 /* EmitterLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmitterLayerViewController.swift; sourceTree = "<group>"; };
 		FE44E8042520685200DD7E44 /* BufferKeyFramesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferKeyFramesViewController.swift; sourceTree = "<group>"; };
 		FE4A91C4252035E2009B0991 /* ManualAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualAnimationViewController.swift; sourceTree = "<group>"; };
@@ -327,6 +331,8 @@
 			children = (
 				FE7B3A722521D6BD00F002BA /* PerformanceTuningTableViewController.swift */,
 				FE7B3A762521D6E800F002BA /* CPUVSGPUViewController.swift */,
+				FE24E7D12522E26B00B38BD8 /* MeasurementViewController.swift */,
+				FE24E7D72522E3E700B38BD8 /* InstrumentsViewController.swift */,
 			);
 			path = "性能调优";
 			sourceTree = "<group>";
@@ -497,6 +503,7 @@
 				FE0C40AA251E026F001F7E51 /* HierarchicalTimeViewController.swift in Sources */,
 				FE4A91CD25203B70009B0991 /* SpeedAnimationViewController.swift in Sources */,
 				17BAFE402510B90F001A4C85 /* LayermaskViewController.swift in Sources */,
+				FE24E7D22522E26B00B38BD8 /* MeasurementViewController.swift in Sources */,
 				FEE5297B251C3F3C002A3C7E /* CAMediaTimingViewController.swift in Sources */,
 				FE7B3A3B2521B71600F002BA /* PhysicalSimulationViewController.swift in Sources */,
 				FE734FD32518AFAC00DD3585 /* EAGLLayerViewController.swift in Sources */,
@@ -513,6 +520,7 @@
 				FE7B3A382521964500F002BA /* TimeFrameViewController.swift in Sources */,
 				17DF6A092511BAAD00362FD8 /* TransformViewController.swift in Sources */,
 				1713BB6D2512186C0029F70C /* TextLayerViewController.swift in Sources */,
+				FE24E7D82522E3E700B38BD8 /* InstrumentsViewController.swift in Sources */,
 				17BAFE3225109D19001A4C85 /* CornerRadiusViewController.swift in Sources */,
 				17BAFE3025109B31001A4C85 /* HitTestViewController.swift in Sources */,
 			);
@@ -663,14 +671,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q6B4M6E2E6;
+				DEVELOPMENT_TEAM = 9XGBMR48TX;
 				INFOPLIST_FILE = "$(SRCROOT)/CoreAnimate/Other/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zheyang.www.CoreAnimate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zheyang.www.CoreAnimateqq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -686,7 +694,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q6B4M6E2E6;
+				DEVELOPMENT_TEAM = 9XGBMR48TX;
 				INFOPLIST_FILE = "$(SRCROOT)/CoreAnimate/Other/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (

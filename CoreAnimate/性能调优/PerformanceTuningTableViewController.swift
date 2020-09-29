@@ -11,9 +11,9 @@ import UIKit
 class PerformanceTuningTableViewController: BaseTableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        textLabelString = ["CPU VS GPU"]
+        textLabelString = ["CPU VS GPU", "测量，而不是猜测", "Instruments"]
 
-        classNames = ["CPUVSGPUViewController"]
+        classNames = ["CPUVSGPUViewController", "MeasurementViewController", "InstrumentsViewController"]
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
