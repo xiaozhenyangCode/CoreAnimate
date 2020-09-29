@@ -66,6 +66,9 @@
 		FEC32359251487FA0036846D /* TransformLayerViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC32358251487FA0036846D /* TransformLayerViewCtrl.swift */; };
 		FEC3235C2514891C0036846D /* GradientLayerViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3235B2514891C0036846D /* GradientLayerViewCtrl.swift */; };
 		FEC5AF8A251AEB1E002E9766 /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC5AF89251AEB1E002E9766 /* TransitionViewController.swift */; };
+		FED6FD40252335050073967A /* EfficientMappingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6FD3F252335050073967A /* EfficientMappingTableViewController.swift */; };
+		FED6FD44252335370073967A /* DrawingSoftwareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6FD43252335370073967A /* DrawingSoftwareViewController.swift */; };
+		FED6FD47252336110073967A /* VectorGraphicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6FD46252336110073967A /* VectorGraphicsViewController.swift */; };
 		FEE52973251C38BA002A3C7E /* CancelAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE52972251C38BA002A3C7E /* CancelAnimationViewController.swift */; };
 		FEE52977251C3EF1002A3C7E /* LayerTimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE52976251C3EF1002A3C7E /* LayerTimeTableViewController.swift */; };
 		FEE5297B251C3F3C002A3C7E /* CAMediaTimingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE5297A251C3F3C002A3C7E /* CAMediaTimingViewController.swift */; };
@@ -137,6 +140,9 @@
 		FEC32358251487FA0036846D /* TransformLayerViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformLayerViewCtrl.swift; sourceTree = "<group>"; };
 		FEC3235B2514891C0036846D /* GradientLayerViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLayerViewCtrl.swift; sourceTree = "<group>"; };
 		FEC5AF89251AEB1E002E9766 /* TransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionViewController.swift; sourceTree = "<group>"; };
+		FED6FD3F252335050073967A /* EfficientMappingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EfficientMappingTableViewController.swift; sourceTree = "<group>"; };
+		FED6FD43252335370073967A /* DrawingSoftwareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingSoftwareViewController.swift; sourceTree = "<group>"; };
+		FED6FD46252336110073967A /* VectorGraphicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VectorGraphicsViewController.swift; sourceTree = "<group>"; };
 		FEE52972251C38BA002A3C7E /* CancelAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelAnimationViewController.swift; sourceTree = "<group>"; };
 		FEE52976251C3EF1002A3C7E /* LayerTimeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerTimeTableViewController.swift; sourceTree = "<group>"; };
 		FEE5297A251C3F3C002A3C7E /* CAMediaTimingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAMediaTimingViewController.swift; sourceTree = "<group>"; };
@@ -204,6 +210,7 @@
 				FE4A91C725203B23009B0991 /* 缓冲 */,
 				FE7B3A32252195E900F002BA /* 基于定时器的动画 */,
 				FE7B3A712521D68D00F002BA /* 性能调优 */,
+				FED6FD3E252334E90073967A /* 高效绘图 */,
 				17BAFE0F251063C6001A4C85 /* Products */,
 			);
 			path = CoreAnimate;
@@ -335,6 +342,16 @@
 				FE24E7D72522E3E700B38BD8 /* InstrumentsViewController.swift */,
 			);
 			path = "性能调优";
+			sourceTree = "<group>";
+		};
+		FED6FD3E252334E90073967A /* 高效绘图 */ = {
+			isa = PBXGroup;
+			children = (
+				FED6FD3F252335050073967A /* EfficientMappingTableViewController.swift */,
+				FED6FD43252335370073967A /* DrawingSoftwareViewController.swift */,
+				FED6FD46252336110073967A /* VectorGraphicsViewController.swift */,
+			);
+			path = "高效绘图";
 			sourceTree = "<group>";
 		};
 		FEE52975251C3ED6002A3C7E /* 图层时间 */ = {
@@ -485,6 +502,7 @@
 				FE4A91D0252042D9009B0991 /* CustomBufferFunctionsViewController.swift in Sources */,
 				FEC3235C2514891C0036846D /* GradientLayerViewCtrl.swift in Sources */,
 				17A259D52511FBC6007F0773 /* TransFormTableViewController.swift in Sources */,
+				FED6FD44252335370073967A /* DrawingSoftwareViewController.swift in Sources */,
 				FEC32359251487FA0036846D /* TransformLayerViewCtrl.swift in Sources */,
 				FE44E8052520685200DD7E44 /* BufferKeyFramesViewController.swift in Sources */,
 				FE0D0BF02519CE8A0074A269 /* TransactionViewController.swift in Sources */,
@@ -501,6 +519,7 @@
 				17BAFE3C2510A496001A4C85 /* ShadowViewController.swift in Sources */,
 				17A259CD2511C0AA007F0773 /* Transform3DViewController.swift in Sources */,
 				FE0C40AA251E026F001F7E51 /* HierarchicalTimeViewController.swift in Sources */,
+				FED6FD40252335050073967A /* EfficientMappingTableViewController.swift in Sources */,
 				FE4A91CD25203B70009B0991 /* SpeedAnimationViewController.swift in Sources */,
 				17BAFE402510B90F001A4C85 /* LayermaskViewController.swift in Sources */,
 				FE24E7D22522E26B00B38BD8 /* MeasurementViewController.swift in Sources */,
@@ -512,6 +531,7 @@
 				FE7B3A772521D6E800F002BA /* CPUVSGPUViewController.swift in Sources */,
 				17BAFE3425109F7A001A4C85 /* NSObject+Extension.swift in Sources */,
 				FE910FC4251874A9008538E5 /* TiledLayerViewController.swift in Sources */,
+				FED6FD47252336110073967A /* VectorGraphicsViewController.swift in Sources */,
 				FE17D4002519E60A007F5E7A /* ExplicitAnimationTableViewController.swift in Sources */,
 				17A259D12511E214007F0773 /* SolidObjectViewController.swift in Sources */,
 				FE4A91C5252035E2009B0991 /* ManualAnimationViewController.swift in Sources */,
