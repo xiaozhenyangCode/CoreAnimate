@@ -69,6 +69,7 @@
 		FED6FD40252335050073967A /* EfficientMappingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6FD3F252335050073967A /* EfficientMappingTableViewController.swift */; };
 		FED6FD44252335370073967A /* DrawingSoftwareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6FD43252335370073967A /* DrawingSoftwareViewController.swift */; };
 		FED6FD47252336110073967A /* VectorGraphicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6FD46252336110073967A /* VectorGraphicsViewController.swift */; };
+		FED6FD4A25233C3F0073967A /* DirtyRectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED6FD4925233C3F0073967A /* DirtyRectViewController.swift */; };
 		FEE52973251C38BA002A3C7E /* CancelAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE52972251C38BA002A3C7E /* CancelAnimationViewController.swift */; };
 		FEE52977251C3EF1002A3C7E /* LayerTimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE52976251C3EF1002A3C7E /* LayerTimeTableViewController.swift */; };
 		FEE5297B251C3F3C002A3C7E /* CAMediaTimingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE5297A251C3F3C002A3C7E /* CAMediaTimingViewController.swift */; };
@@ -143,6 +144,7 @@
 		FED6FD3F252335050073967A /* EfficientMappingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EfficientMappingTableViewController.swift; sourceTree = "<group>"; };
 		FED6FD43252335370073967A /* DrawingSoftwareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingSoftwareViewController.swift; sourceTree = "<group>"; };
 		FED6FD46252336110073967A /* VectorGraphicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VectorGraphicsViewController.swift; sourceTree = "<group>"; };
+		FED6FD4925233C3F0073967A /* DirtyRectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirtyRectViewController.swift; sourceTree = "<group>"; };
 		FEE52972251C38BA002A3C7E /* CancelAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelAnimationViewController.swift; sourceTree = "<group>"; };
 		FEE52976251C3EF1002A3C7E /* LayerTimeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerTimeTableViewController.swift; sourceTree = "<group>"; };
 		FEE5297A251C3F3C002A3C7E /* CAMediaTimingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAMediaTimingViewController.swift; sourceTree = "<group>"; };
@@ -350,6 +352,7 @@
 				FED6FD3F252335050073967A /* EfficientMappingTableViewController.swift */,
 				FED6FD43252335370073967A /* DrawingSoftwareViewController.swift */,
 				FED6FD46252336110073967A /* VectorGraphicsViewController.swift */,
+				FED6FD4925233C3F0073967A /* DirtyRectViewController.swift */,
 			);
 			path = "高效绘图";
 			sourceTree = "<group>";
@@ -485,6 +488,7 @@
 				17BAFE2C251095A8001A4C85 /* BaseViewController.swift in Sources */,
 				1713BB692511FE3B0029F70C /* ShapeLayerViewController.swift in Sources */,
 				FE7B3A732521D6BD00F002BA /* PerformanceTuningTableViewController.swift in Sources */,
+				FED6FD4A25233C3F0073967A /* DirtyRectViewController.swift in Sources */,
 				FE3731EB2518A49A00185235 /* EmitterLayerViewController.swift in Sources */,
 				FE78DF762514629E0079CD29 /* LayerLabel.swift in Sources */,
 				17BAFE3E2510B746001A4C85 /* ShadowPathViewController.swift in Sources */,

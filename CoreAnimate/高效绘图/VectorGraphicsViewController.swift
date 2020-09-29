@@ -34,11 +34,10 @@ class VectorGraphicsViewController: BaseViewController {
 //        drawingView = DrawingView(frame: view.bounds)
 //        drawingView.backgroundColor = UIColor(red: 191 / 256, green: 191 / 256, blue: 191 / 256, alpha: 1.0)
 //        view.addSubview(drawingView)
-        
+
         drawingCAShapeLayerView = DrawingCAShapeLayerView(frame: view.bounds)
         drawingCAShapeLayerView.backgroundColor = UIColor(red: 191 / 256, green: 191 / 256, blue: 191 / 256, alpha: 1.0)
         view.addSubview(drawingCAShapeLayerView)
-        
     }
 }
 

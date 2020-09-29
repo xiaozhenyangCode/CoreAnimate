@@ -11,9 +11,9 @@ import UIKit
 class EfficientMappingTableViewController: BaseTableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        textLabelString = ["软件绘图", "矢量图形"]
+        textLabelString = ["软件绘图", "矢量图形", "脏矩形"]
 
-        classNames = ["DrawingSoftwareViewController", "VectorGraphicsViewController"]
+        classNames = ["DrawingSoftwareViewController", "VectorGraphicsViewController", "DirtyRectViewController"]
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
