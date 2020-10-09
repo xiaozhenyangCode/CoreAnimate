@@ -63,6 +63,8 @@
 		FE7B3A772521D6E800F002BA /* CPUVSGPUViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B3A762521D6E800F002BA /* CPUVSGPUViewController.swift */; };
 		FE910FC025186D60008538E5 /* ScrollLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE910FBF25186D60008538E5 /* ScrollLayerViewController.swift */; };
 		FE910FC4251874A9008538E5 /* TiledLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE910FC3251874A9008538E5 /* TiledLayerViewController.swift */; };
+		FEB053AB253004EC003F126D /* ImageIOTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB053AA253004EC003F126D /* ImageIOTableViewController.swift */; };
+		FEB053AF2530052A003F126D /* LoadingAndLatencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB053AE2530052A003F126D /* LoadingAndLatencyViewController.swift */; };
 		FEC32359251487FA0036846D /* TransformLayerViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC32358251487FA0036846D /* TransformLayerViewCtrl.swift */; };
 		FEC3235C2514891C0036846D /* GradientLayerViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC3235B2514891C0036846D /* GradientLayerViewCtrl.swift */; };
 		FEC5AF8A251AEB1E002E9766 /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC5AF89251AEB1E002E9766 /* TransitionViewController.swift */; };
@@ -138,6 +140,8 @@
 		FE7B3A762521D6E800F002BA /* CPUVSGPUViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPUVSGPUViewController.swift; sourceTree = "<group>"; };
 		FE910FBF25186D60008538E5 /* ScrollLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollLayerViewController.swift; sourceTree = "<group>"; };
 		FE910FC3251874A9008538E5 /* TiledLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiledLayerViewController.swift; sourceTree = "<group>"; };
+		FEB053AA253004EC003F126D /* ImageIOTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageIOTableViewController.swift; sourceTree = "<group>"; };
+		FEB053AE2530052A003F126D /* LoadingAndLatencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAndLatencyViewController.swift; sourceTree = "<group>"; };
 		FEC32358251487FA0036846D /* TransformLayerViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformLayerViewCtrl.swift; sourceTree = "<group>"; };
 		FEC3235B2514891C0036846D /* GradientLayerViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLayerViewCtrl.swift; sourceTree = "<group>"; };
 		FEC5AF89251AEB1E002E9766 /* TransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionViewController.swift; sourceTree = "<group>"; };
@@ -213,6 +217,7 @@
 				FE7B3A32252195E900F002BA /* 基于定时器的动画 */,
 				FE7B3A712521D68D00F002BA /* 性能调优 */,
 				FED6FD3E252334E90073967A /* 高效绘图 */,
+				FEB053A9253004D1003F126D /* 图像IO */,
 				17BAFE0F251063C6001A4C85 /* Products */,
 			);
 			path = CoreAnimate;
@@ -344,6 +349,15 @@
 				FE24E7D72522E3E700B38BD8 /* InstrumentsViewController.swift */,
 			);
 			path = "性能调优";
+			sourceTree = "<group>";
+		};
+		FEB053A9253004D1003F126D /* 图像IO */ = {
+			isa = PBXGroup;
+			children = (
+				FEB053AA253004EC003F126D /* ImageIOTableViewController.swift */,
+				FEB053AE2530052A003F126D /* LoadingAndLatencyViewController.swift */,
+			);
+			path = "图像IO";
 			sourceTree = "<group>";
 		};
 		FED6FD3E252334E90073967A /* 高效绘图 */ = {
@@ -517,8 +531,10 @@
 				FE910FC025186D60008538E5 /* ScrollLayerViewController.swift in Sources */,
 				FEE52977251C3EF1002A3C7E /* LayerTimeTableViewController.swift in Sources */,
 				17BAFE382510A158001A4C85 /* Proxy.swift in Sources */,
+				FEB053AF2530052A003F126D /* LoadingAndLatencyViewController.swift in Sources */,
 				FE4A91C925203B42009B0991 /* BufferBaseTableViewController.swift in Sources */,
 				17BAFE422510BE18001A4C85 /* TensilefilterViewController.swift in Sources */,
+				FEB053AB253004EC003F126D /* ImageIOTableViewController.swift in Sources */,
 				17BAFE3A2510A1CB001A4C85 /* LayerFrameViewController.swift in Sources */,
 				17BAFE3C2510A496001A4C85 /* ShadowViewController.swift in Sources */,
 				17A259CD2511C0AA007F0773 /* Transform3DViewController.swift in Sources */,
