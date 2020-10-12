@@ -64,6 +64,8 @@
 		FE7B58E525343A1C00D19980 /* CacheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B58E425343A1C00D19980 /* CacheViewController.swift */; };
 		FE7B591D2534446D00D19980 /* Vacation in Resources */ = {isa = PBXBuildFile; fileRef = FE7B591C2534446D00D19980 /* Vacation */; };
 		FE7B592025344DEB00D19980 /* FileFormatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B591F25344DEB00D19980 /* FileFormatViewController.swift */; };
+		FE7B592425346E8500D19980 /* LayePropertiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B592325346E8500D19980 /* LayePropertiesTableViewController.swift */; };
+		FE7B592825346EC200D19980 /* ImplicitMappingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7B592725346EC200D19980 /* ImplicitMappingViewController.swift */; };
 		FE910FC025186D60008538E5 /* ScrollLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE910FBF25186D60008538E5 /* ScrollLayerViewController.swift */; };
 		FE910FC4251874A9008538E5 /* TiledLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE910FC3251874A9008538E5 /* TiledLayerViewController.swift */; };
 		FEB053AB253004EC003F126D /* ImageIOTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB053AA253004EC003F126D /* ImageIOTableViewController.swift */; };
@@ -144,6 +146,8 @@
 		FE7B58E425343A1C00D19980 /* CacheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheViewController.swift; sourceTree = "<group>"; };
 		FE7B591C2534446D00D19980 /* Vacation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Vacation; sourceTree = "<group>"; };
 		FE7B591F25344DEB00D19980 /* FileFormatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileFormatViewController.swift; sourceTree = "<group>"; };
+		FE7B592325346E8500D19980 /* LayePropertiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayePropertiesTableViewController.swift; sourceTree = "<group>"; };
+		FE7B592725346EC200D19980 /* ImplicitMappingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitMappingViewController.swift; sourceTree = "<group>"; };
 		FE910FBF25186D60008538E5 /* ScrollLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollLayerViewController.swift; sourceTree = "<group>"; };
 		FE910FC3251874A9008538E5 /* TiledLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiledLayerViewController.swift; sourceTree = "<group>"; };
 		FEB053AA253004EC003F126D /* ImageIOTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageIOTableViewController.swift; sourceTree = "<group>"; };
@@ -224,6 +228,7 @@
 				FE7B3A712521D68D00F002BA /* 性能调优 */,
 				FED6FD3E252334E90073967A /* 高效绘图 */,
 				FEB053A9253004D1003F126D /* 图像IO */,
+				FE7B592225346E6800D19980 /* 图层性能 */,
 				17BAFE0F251063C6001A4C85 /* Products */,
 			);
 			path = CoreAnimate;
@@ -356,6 +361,15 @@
 				FE24E7D72522E3E700B38BD8 /* InstrumentsViewController.swift */,
 			);
 			path = "性能调优";
+			sourceTree = "<group>";
+		};
+		FE7B592225346E6800D19980 /* 图层性能 */ = {
+			isa = PBXGroup;
+			children = (
+				FE7B592325346E8500D19980 /* LayePropertiesTableViewController.swift */,
+				FE7B592725346EC200D19980 /* ImplicitMappingViewController.swift */,
+			);
+			path = "图层性能";
 			sourceTree = "<group>";
 		};
 		FEB053A9253004D1003F126D /* 图像IO */ = {
@@ -545,10 +559,12 @@
 				FEB053AF2530052A003F126D /* LoadingAndLatencyViewController.swift in Sources */,
 				FE7B58E525343A1C00D19980 /* CacheViewController.swift in Sources */,
 				FE4A91C925203B42009B0991 /* BufferBaseTableViewController.swift in Sources */,
+				FE7B592825346EC200D19980 /* ImplicitMappingViewController.swift in Sources */,
 				17BAFE422510BE18001A4C85 /* TensilefilterViewController.swift in Sources */,
 				FEB053AB253004EC003F126D /* ImageIOTableViewController.swift in Sources */,
 				17BAFE3A2510A1CB001A4C85 /* LayerFrameViewController.swift in Sources */,
 				17BAFE3C2510A496001A4C85 /* ShadowViewController.swift in Sources */,
+				FE7B592425346E8500D19980 /* LayePropertiesTableViewController.swift in Sources */,
 				17A259CD2511C0AA007F0773 /* Transform3DViewController.swift in Sources */,
 				FE0C40AA251E026F001F7E51 /* HierarchicalTimeViewController.swift in Sources */,
 				FED6FD40252335050073967A /* EfficientMappingTableViewController.swift in Sources */,
