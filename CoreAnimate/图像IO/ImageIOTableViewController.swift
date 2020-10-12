@@ -11,9 +11,9 @@ import UIKit
 class ImageIOTableViewController: BaseTableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        textLabelString = ["加载和潜伏", "缓存"]
+        textLabelString = ["加载和潜伏", "缓存", "文件格式"]
 
-        classNames = ["LoadingAndLatencyViewController", "CacheViewController"]
+        classNames = ["LoadingAndLatencyViewController", "CacheViewController", "FileFormatViewController"]
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
