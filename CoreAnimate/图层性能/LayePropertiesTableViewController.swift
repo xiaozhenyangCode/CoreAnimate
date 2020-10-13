@@ -11,9 +11,9 @@ import UIKit
 class LayePropertiesTableViewController: BaseTableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        textLabelString = ["隐式绘制", "离屏渲染", "混合和过度绘制"]
+        textLabelString = ["隐式绘制", "离屏渲染", "混合和过度绘制", "减少图层数量"]
 
-        classNames = ["ImplicitMappingViewController", "OffScreenRenderingViewController", "MixAndOverdrawViewController"]
+        classNames = ["ImplicitMappingViewController", "OffScreenRenderingViewController", "MixAndOverdrawViewController", "ReduceNumberLayersViewController"]
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

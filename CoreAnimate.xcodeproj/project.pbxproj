@@ -70,6 +70,7 @@
 		FE910FC4251874A9008538E5 /* TiledLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE910FC3251874A9008538E5 /* TiledLayerViewController.swift */; };
 		FE95BC6C2535708C00FE8488 /* OffScreenRenderingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE95BC6B2535708C00FE8488 /* OffScreenRenderingViewController.swift */; };
 		FE95BC6F2535743D00FE8488 /* MixAndOverdrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE95BC6E2535743D00FE8488 /* MixAndOverdrawViewController.swift */; };
+		FE95BC72253574EA00FE8488 /* ReduceNumberLayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE95BC71253574EA00FE8488 /* ReduceNumberLayersViewController.swift */; };
 		FEB053AB253004EC003F126D /* ImageIOTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB053AA253004EC003F126D /* ImageIOTableViewController.swift */; };
 		FEB053AF2530052A003F126D /* LoadingAndLatencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB053AE2530052A003F126D /* LoadingAndLatencyViewController.swift */; };
 		FEC32359251487FA0036846D /* TransformLayerViewCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC32358251487FA0036846D /* TransformLayerViewCtrl.swift */; };
@@ -154,6 +155,7 @@
 		FE910FC3251874A9008538E5 /* TiledLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiledLayerViewController.swift; sourceTree = "<group>"; };
 		FE95BC6B2535708C00FE8488 /* OffScreenRenderingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffScreenRenderingViewController.swift; sourceTree = "<group>"; };
 		FE95BC6E2535743D00FE8488 /* MixAndOverdrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixAndOverdrawViewController.swift; sourceTree = "<group>"; };
+		FE95BC71253574EA00FE8488 /* ReduceNumberLayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceNumberLayersViewController.swift; sourceTree = "<group>"; };
 		FEB053AA253004EC003F126D /* ImageIOTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageIOTableViewController.swift; sourceTree = "<group>"; };
 		FEB053AE2530052A003F126D /* LoadingAndLatencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAndLatencyViewController.swift; sourceTree = "<group>"; };
 		FEC32358251487FA0036846D /* TransformLayerViewCtrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformLayerViewCtrl.swift; sourceTree = "<group>"; };
@@ -374,6 +376,7 @@
 				FE7B592725346EC200D19980 /* ImplicitMappingViewController.swift */,
 				FE95BC6B2535708C00FE8488 /* OffScreenRenderingViewController.swift */,
 				FE95BC6E2535743D00FE8488 /* MixAndOverdrawViewController.swift */,
+				FE95BC71253574EA00FE8488 /* ReduceNumberLayersViewController.swift */,
 			);
 			path = "图层性能";
 			sourceTree = "<group>";
@@ -563,6 +566,7 @@
 				17BAFE3625109FB1001A4C85 /* Func.swift in Sources */,
 				FE910FC025186D60008538E5 /* ScrollLayerViewController.swift in Sources */,
 				FEE52977251C3EF1002A3C7E /* LayerTimeTableViewController.swift in Sources */,
+				FE95BC72253574EA00FE8488 /* ReduceNumberLayersViewController.swift in Sources */,
 				17BAFE382510A158001A4C85 /* Proxy.swift in Sources */,
 				FEB053AF2530052A003F126D /* LoadingAndLatencyViewController.swift in Sources */,
 				FE7B58E525343A1C00D19980 /* CacheViewController.swift in Sources */,
